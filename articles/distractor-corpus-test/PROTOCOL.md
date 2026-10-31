@@ -192,3 +192,6 @@ All use the same frozen manifests and the same breaking point rule. Rule checker
 3. Without the eight single requirement questions: `sens_no_single.txt`, 290 questions.
 4. Without all of those plus q237: `sens_no_weak.txt`, 287 questions.
 Largest drops at N=1,801 (all ordinary embeddings flat chunks): main screened run -3.4 [-5.4,-1.3]; no gap questions -3.1 [-5.1,-1.4]; no single requirement -3.4 [-5.9,-1.4]; no weak questions -3.1 [-5.2,-1.4]. The breaking point rule is met in no cell in any variant.
+
+### Correction, 2026-10-31: who read the audit samples
+Several notes above credit "the AI assistant" or "the reviewer" with reading audit samples. The author states that they personally read these samples: the seven q001 papers, the 40 papers ranked 51 to 200, the 40 candidates drawn from the Sonnet-cleared flags and the 40 drawn from Haiku's none labels, and the 40 swapped Wikipedia passages in the same page test. The older notes are left unchanged so the record shows what was written at the time. This correction replaces their attribution. The note on the 205 disputed requirements (adjudication) is not covered by this correction. Only samples were read for the arXiv labels, not all 14,850 non-gold pairs, and there was one reader with no second annotator.

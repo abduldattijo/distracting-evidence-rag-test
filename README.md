@@ -19,7 +19,7 @@ Several results files are compressed because they are large. Run `gunzip -k` on 
 ## What was checked by a person and what was not
 
 - A person (the author) read and labeled all 5,006 same page Wikipedia passages, after AI screening sorted the candidates and before any search ran. There was one reviewer and no second annotator.
-- The arXiv distractor labels came from two AI models (Claude Haiku 5.5 and Claude Sonnet 5.5), with reads by an AI assistant. No person checked them.
+- The arXiv distractor labels came from two AI models (Claude Haiku 5.5 and Claude Sonnet 5.5), and the author read small samples of them (see the correction note at the end of `articles/distractor-corpus-test/PROTOCOL.md`). Not every pair was read by a person.
 - Two spot checks of 40 items each (arXiv papers ranked 51 to 200, and 40 swapped Wikipedia passages) were AI reads, not human audits.
 
 ## Notes on the files
