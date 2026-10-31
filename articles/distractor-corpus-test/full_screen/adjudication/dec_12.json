@@ -1,0 +1,15 @@
+{
+"q233": {"3": ["drop", "authors, venue and year not asked"]},
+"q235": {"1": ["reword", "Turn logged operational event data into evidence about a proposed action, including how good that evidence is"],
+         "2": ["reword", "Decide among take, postpone, query and decline while accounting for privacy limits, organizational authority and downstream risk"],
+         "3": ["drop", "thresholds and escalation rules invented"]},
+"q236": {"3": ["drop", "confirming existence not asked"]},
+"q240": {"2": ["reword", "Measure how much valid closed-loop evidence the rollouts give, instead of counting raw failures"], "3": ["drop", "fidelity against real logs invented"]},
+"q241": {"2": ["reword", "Use preference optimization on the newer model"], "3": ["reword", "Keep the newer model's existing quality from degrading"]},
+"q244": {"1": ["reword", "Detect rare catastrophic cost tail events during training, beyond expected cost"],
+         "2": ["keep", ""], "3": ["reword", "Do this without fitting a parametric tail model"]},
+"q246": {"3": ["drop", "communication trade-off not asked"]},
+"q247": {"1": ["drop", "profiling step invented"]},
+"q250": {"3": ["drop", "reward optimization method details invented"]},
+"q251": {"3": ["drop", "limitations note not asked"]}
+}

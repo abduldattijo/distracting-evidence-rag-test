@@ -1,0 +1,16 @@
+Question set frozen 2026-10-15 (before any multiquery or agent run).
+
+questions_review.csv  sha256 ecf29f70bd7d9145b405f33c143d221848d54004bae1b4a544559e2647cd7703  (300 rows, 298 with ok=1)
+questions.jsonl       sha256 48752c4b3a76151f8420ac7b3c6527e07f0fbf41996b2adc2cd07de2df0d2cd1
+papers.jsonl          sha256 1e4024754884782ce67c4e99b50e751b16fc848d116a29adc405e960cb2bf410  (2000 papers)
+
+History: dense and rerank were run on this set once (results/full.jsonl) before the freeze. After
+seeing their 13 dense misses, all 13 questions were re-read against the gold and nearby papers;
+no question was changed, dropped or re-marked because of those results.
+
+Analysis plan, fixed before the LLM runs:
+  * main benchmark = all 298 reviewed questions (no filtering on dense results)
+  * multiquery and agent run 3 times (results/full_run1..3.jsonl); dense and rerank once (deterministic)
+  * report per design: recall@5, MRR@10, median latency, $ per query, mean and range across the 3 runs
+  * report paired differences against dense with bootstrap ranges, per run and with the 3 runs averaged
+  * no rule that any design must win; "no clear difference" is a reportable result

@@ -1,0 +1,12 @@
+{
+"q065": {"3": ["drop", "naming other methods not asked"]},
+"q066": {"2": ["reword", "Combine the checks into a rule for when to abstain"]},
+"q067": {"2": ["reword", "Make the latent dimensions ordered by the variance they explain"], "3": ["drop", "joint regularization is invented"]},
+"q068": {"3": ["reword", "Use the limited real-world test results to correct the simulator's failure signal"]},
+"q070": {"3": ["reword", "Use a model suited to disordered regions, such as a protein language model"]},
+"q071": {"2": ["reword", "Identify the mechanism in the training updates that causes the accuracy loss"]},
+"q074": {"3": ["drop", "limitations and alternatives not asked"]},
+"q075": {"1": ["drop", "background explanation not asked"]},
+"q078": {"2": ["drop", "realism validation invented; latent coupling already in requirement 1"]},
+"q079": {"1": ["reword", "Explain why a pairwise ranking loss alone makes attribute embeddings collapse to near-random geometry"]}
+}

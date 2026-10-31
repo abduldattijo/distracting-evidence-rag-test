@@ -1,0 +1,15 @@
+{
+"q115": {"3": ["drop", "safeguards and fallback invented"]},
+"q116": {"1": ["reword", "State how much diesel can be saved when machine learning picks the generator load split"],
+         "2": ["drop", "invented dependency claim"], "3": ["drop", "invented provenance claim"],
+         "note": "original 2 to 10 percent figure contradicts the paper (27 percent per day against the worst load combinations, about 24,000 litres per day); the only requirement left asks for the saving"},
+"q119": {"3": ["reword", "Predict the needed subspace dimension from a theoretical quantity instead of only by sweeping"]},
+"q122": {"3": ["keep", ""]},
+"q123": {"1": ["reword", "Score each part of the agent's operating context against defined criteria"]},
+"q124": {"3": ["drop", "repeats requirement 2"]},
+"q126": {"3": ["drop", "disaster constraints invented"]},
+"q127": {"2": ["reword", "Use an iterative eigensolver that needs only kernel-vector products to get the leading eigenvectors"],
+         "3": ["reword", "Work in the small bandwidth regime where the kernel matrix is dense and high rank"]},
+"q133": {"2": ["keep", ""]},
+"q135": {"1": ["reword", "Combine retrieval-augmented language models, thermal imaging, vision foundation models and wireless sensing into one pipeline for damage assessment"]}
+}

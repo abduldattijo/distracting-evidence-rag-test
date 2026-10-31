@@ -1,0 +1,13 @@
+{
+"q097": {"3": ["drop", "joint plausibility not asked"]},
+"q098": {"1": ["keep", ""], "2": ["keep", ""], "3": ["drop", "limits and caveats not asked"],
+         "gold_gap": "abstract only poses the question and reports no result, so it cannot answer requirements 1 and 2"},
+"q100": {"2": ["reword", "Propose a concrete method that makes simulated students answer wrongly in a realistic way at each skill level"], "3": ["drop", "validation against real distributions not asked"]},
+"q102": {"2": ["reword", "Reinterpret value functions and learning algorithms through potential theory"]},
+"q103": {"2": ["reword", "Explain through the training dynamics how concept directions become aligned across inputs"]},
+"q106": {"1": ["keep", ""]},
+"q109": {"2": ["reword", "Make the spectrum encoder capture the mass differences between peaks"]},
+"q110": {"1": ["drop", "meta instruction"], "3": ["drop", "meta instruction"]},
+"q113": {"3": ["reword", "Identify an open-source multi-agent tool that builds an extraction schema by asking clarifying questions and testing on documents"]},
+"q114": {"3": ["drop", "hardware caveat invented"]}
+}

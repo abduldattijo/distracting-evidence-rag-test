@@ -1,0 +1,14 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "passage_text": "title + '. ' + passage text",
+  "normalized_embeddings": true,
+  "score": "float64 elementwise dot product of normalized vectors",
+  "ranking": "cosine similarity descending; docid ascending for exact ties",
+  "top_k_for_initial_review": 50,
+  "blind_shuffle_seed": 20261032,
+  "candidate_pools_sha256": "2751479936ce64a971419df9b2fef409f68c985d653acae08d52c4e2dc58168f",
+  "ranked_private_sha256": "25dbde72b60b3b1fd7e7db41735c7fd68bfae563d89d2fd6f15780c3790e92aa",
+  "blind_packets_sha256": "3bc016b7600c3b6d55e83fed531716b9368a4997d09a73f2a8e8b9173cd1a910"
+}

@@ -1,0 +1,102 @@
+{
+  "n_questions": 100,
+  "n_question_draw_condition_rows": 600,
+  "n_questions_success_retrieved_ordinary": 92,
+  "paired_metrics": {
+    "success_at_10": {
+      "ordinary_mean": 0.9066666666666666,
+      "hard_mean": 0.8233333333333334,
+      "difference_hard_minus_ordinary": -0.08333333333333331,
+      "paired_question_bootstrap_95_ci": [
+        -0.1366666666666667,
+        -0.03666666666666667
+      ],
+      "draws": {
+        "11": -0.09,
+        "23": -0.08,
+        "37": -0.08
+      }
+    },
+    "recall_at_10": {
+      "ordinary_mean": 0.9016666666666666,
+      "hard_mean": 0.7866666666666666,
+      "difference_hard_minus_ordinary": -0.115,
+      "paired_question_bootstrap_95_ci": [
+        -0.17,
+        -0.06666666666666667
+      ],
+      "draws": {
+        "11": -0.12833333333333333,
+        "23": -0.10833333333333334,
+        "37": -0.10833333333333334
+      }
+    },
+    "mrr_at_10": {
+      "ordinary_mean": 0.7865895874731429,
+      "hard_mean": 0.5183709658950193,
+      "difference_hard_minus_ordinary": -0.26821862157812365,
+      "paired_question_bootstrap_95_ci": [
+        -0.33144692252730484,
+        -0.20699580106595122
+      ],
+      "draws": {
+        "11": -0.2528725217786276,
+        "23": -0.2718536082899632,
+        "37": -0.27992973466578014
+      }
+    },
+    "ndcg_at_10": {
+      "ordinary_mean": 0.8091202989838536,
+      "hard_mean": 0.5583807842306158,
+      "difference_hard_minus_ordinary": -0.25073951475323786,
+      "paired_question_bootstrap_95_ci": [
+        -0.30357954872198073,
+        -0.200487955422968
+      ],
+      "draws": {
+        "11": -0.24402682699929273,
+        "23": -0.24987619681323675,
+        "37": -0.25831552044718425
+      }
+    },
+    "success_at_10_by_draw": {
+      "11": {
+        "ordinary": 0.9,
+        "hard": 0.81,
+        "difference": -0.09
+      },
+      "23": {
+        "ordinary": 0.92,
+        "hard": 0.84,
+        "difference": -0.08
+      },
+      "37": {
+        "ordinary": 0.9,
+        "hard": 0.82,
+        "difference": -0.08
+      }
+    }
+  },
+  "median_query_latency_ms": {
+    "ordinary": 0.9434374999841566,
+    "hard": 0.9321879999788507
+  },
+  "median_index_build_seconds": {
+    "ordinary": 0.4035976869999871,
+    "hard": 0.4011182499999677
+  },
+  "median_index_build_minutes": {
+    "ordinary": 0.006726628116666452,
+    "hard": 0.006685304166666128
+  },
+  "median_index_bytes": {
+    "ordinary": 2751905.0,
+    "hard": 2752077.0
+  },
+  "limitations": [
+    "AI-assisted candidate screening, not independent human annotation",
+    "BEIR qrels are positive-only",
+    "100-question secondary subset",
+    "retrieval-only; no generator evaluation"
+  ]
+}

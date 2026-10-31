@@ -1,0 +1,136 @@
+{
+ "q000": {
+  "original": [
+   "Define hinted training: prepend partial solution prefixes or privileged hints, sampling completions that reach correct answers",
+   "Keep the reward and policy gradient on the unhinted prompt, so the hint only aids exploration",
+   "Anneal or drop hints over training so the policy learns to solve the original problem unaided"
+  ],
+  "haiku_kept": [
+   "Define hinted training: prepend partial solution prefixes or privileged hints, sampling completions that reach correct answers"
+  ],
+  "sonnet_supported": [
+   "Define hinted training: prepend partial solution prefixes or privileged hints, sampling completions that reach correct answers",
+   "Keep the reward and policy gradient on the unhinted prompt, so the hint only aids exploration"
+  ]
+ },
+ "q002": {
+  "original": [
+   "Identify the paper scoring clusterings against known classes using two measures",
+   "Explain the two measures: cluster purity and avoiding over-splitting of classes",
+   "Connect the paper's measures to ROC curves"
+  ],
+  "haiku_kept": [
+   "Identify the paper scoring clusterings against known classes using two measures",
+   "Explain the two measures: cluster purity and avoiding over-splitting of classes",
+   "Connect the paper's measures to ROC curves"
+  ],
+  "sonnet_supported": [
+   "Identify the paper scoring clusterings against known classes using two measures",
+   "Connect the paper's measures to ROC curves"
+  ]
+ },
+ "q003": {
+  "original": [
+   "Base false-alarm rate per test and how it compounds across many features and repeated checks",
+   "Effect of batch size on detector sensitivity, variance, and spurious alert frequency",
+   "Impact of multiple-testing correction such as Bonferroni or FDR control on alert rates"
+  ],
+  "haiku_kept": [
+   "Base false-alarm rate per test and how it compounds across many features and repeated checks",
+   "Effect of batch size on detector sensitivity, variance, and spurious alert frequency",
+   "Impact of multiple-testing correction such as Bonferroni or FDR control on alert rates"
+  ],
+  "sonnet_supported": [
+   "Effect of batch size on detector sensitivity, variance, and spurious alert frequency",
+   "Impact of multiple-testing correction such as Bonferroni or FDR control on alert rates"
+  ]
+ },
+ "q004": {
+  "original": [
+   "Methods to make LLM-based simulated users reproduce one person's reactions, including on uncovered topics",
+   "Whether instructing quick gut reaction versus careful reasoning changes simulation accuracy",
+   "Evidence or reasoning on how these two parts interact and their tradeoffs"
+  ],
+  "haiku_kept": [
+   "Methods to make LLM-based simulated users reproduce one person's reactions, including on uncovered topics",
+   "Whether instructing quick gut reaction versus careful reasoning changes simulation accuracy"
+  ],
+  "sonnet_supported": [
+   "Methods to make LLM-based simulated users reproduce one person's reactions, including on uncovered topics",
+   "Whether instructing quick gut reaction versus careful reasoning changes simulation accuracy"
+  ]
+ },
+ "q005": {
+  "original": [
+   "Speculative decoding verifies several draft tokens in one pass, so correlation helps only if draft and verify share experts",
+   "Speedup depends on fewer distinct experts per batch, which lowers memory traffic and improves throughput",
+   "Premise check: correlated routing does not by itself reduce experts loaded per token"
+  ],
+  "haiku_kept": [
+   "Speculative decoding verifies several draft tokens in one pass, so correlation helps only if draft and verify share experts",
+   "Speedup depends on fewer distinct experts per batch, which lowers memory traffic and improves throughput"
+  ],
+  "sonnet_supported": [
+   "Speedup depends on fewer distinct experts per batch, which lowers memory traffic and improves throughput"
+  ]
+ },
+ "q006": {
+  "original": [
+   "Specify the combinations of evolutionary and RL update and inheritance schemes",
+   "Specify the neural architectures paired with those update schemes",
+   "Explain how frozen elite controllers compete in the GPU-simulated spatial ecology"
+  ],
+  "haiku_kept": [
+   "Specify the combinations of evolutionary and RL update and inheritance schemes",
+   "Specify the neural architectures paired with those update schemes",
+   "Explain how frozen elite controllers compete in the GPU-simulated spatial ecology"
+  ],
+  "sonnet_supported": [
+   "Specify the combinations of evolutionary and RL update and inheritance schemes",
+   "Specify the neural architectures paired with those update schemes",
+   "Explain how frozen elite controllers compete in the GPU-simulated spatial ecology"
+  ]
+ },
+ "q007": {
+  "original": [
+   "Define a generative model of future poses conditioned on each fly's own sensory viewpoint",
+   "Learn it from multi-animal tracking data, with each fly acting independently on its egocentric observations so group behavior emerges"
+  ],
+  "haiku_kept": [
+   "Define a generative model of future poses conditioned on each fly's own sensory viewpoint",
+   "Learn it from multi-animal tracking data, with each fly acting independently on its egocentric observations so group behavior emerges"
+  ],
+  "sonnet_supported": [
+   "Define a generative model of future poses conditioned on each fly's own sensory viewpoint",
+   "Learn it from multi-animal tracking data, with each fly acting independently on its egocentric observations so group behavior emerges"
+  ]
+ },
+ "q008": {
+  "original": [
+   "Identify the specific multi-agent LLM system that writes optimized GPU kernels",
+   "State its ranking on the SOL-ExecBench leaderboard for H100 and B200",
+   "Explain what SOL-ExecBench measures and how each result was obtained"
+  ],
+  "haiku_kept": [
+   "Identify the specific multi-agent LLM system that writes optimized GPU kernels",
+   "State its ranking on the SOL-ExecBench leaderboard for H100 and B200"
+  ],
+  "sonnet_supported": [
+   "Identify the specific multi-agent LLM system that writes optimized GPU kernels",
+   "State its ranking on the SOL-ExecBench leaderboard for H100 and B200"
+  ]
+ },
+ "q009": {
+  "original": [
+   "Sample source prefixes without replacement, weighting each draw to correct for inclusion probabilities, yielding an unbiased estimator.",
+   "Define the target-prefix probability as a sum over source strings mapped by the FST."
+  ],
+  "haiku_kept": [
+   "Sample source prefixes without replacement, weighting each draw to correct for inclusion probabilities, yielding an unbiased estimator."
+  ],
+  "sonnet_supported": [
+   "Sample source prefixes without replacement, weighting each draw to correct for inclusion probabilities, yielding an unbiased estimator.",
+   "Define the target-prefix probability as a sum over source strings mapped by the FST."
+  ]
+ }
+}

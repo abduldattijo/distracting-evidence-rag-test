@@ -1,0 +1,13 @@
+{
+"q199": {"2": ["reword", "Provide a memory layer that surfaces relevant past experience independently of the agent's own code"]},
+"q200": {"3": ["drop", "naming the paper or hedging not asked"]},
+"q201": {"1": ["reword", "Whether the loss gap between any two tokens stays about the same across models trained with different optimizers or slightly different architectures"],
+         "note": "original wording said across token positions, which is not what the question or paper asks"},
+"q203": {"3": ["keep", ""]},
+"q205": {"3": ["drop", "critic or likelihood decomposition details invented; repeats requirements 1 and 2"]},
+"q206": {"2": ["keep", ""]},
+"q207": {"3": ["drop", "seeds and statistical tests invented"]},
+"q208": {"3": ["drop", "metrics and baselines invented"]},
+"q209": {"1": ["reword", "Explain why benchmark scores alone cannot justify approving LLM applications for production in banks"], "3": ["drop", "documented risk assessment claim invented"]},
+"q212": {"3": ["drop", "limits and reliability not asked"]}
+}

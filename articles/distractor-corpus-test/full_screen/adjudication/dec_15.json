@@ -1,0 +1,5 @@
+{
+"q294": {"1": ["reword", "Treat the learner persona as an explicit criterion when judging the generated instructional videos"], "3": ["drop", "pipeline validation checks invented"]},
+"q295": {"2": ["reword", "Describe internal mechanisms that could explain the worse handling of technical vocabulary"], "3": ["drop", "narrower coverage claim invented"]},
+"q297": {"1": ["drop", "defining the features is not what the question asks"]}
+}

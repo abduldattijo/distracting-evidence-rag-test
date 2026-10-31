@@ -1,0 +1,12 @@
+{
+"q047": {"3": ["drop", "meta instruction about uncertainty is not content"]},
+"q049": {"3": ["drop", "assumptions not asked"]},
+"q050": {"1": ["keep", "gold says it does not reliably improve training; that is still the answer"], "2": ["keep", "gold says scores do not robustly predict quality; still the answer"]},
+"q051": {"1": ["drop", "definition not asked; repeats requirement 2"]},
+"q053": {"1": ["reword", "Identify a method that pairs an audio-conditioned verifier with cross-turn voting on SpokenWOZ"]},
+"q054": {"1": ["reword", "Specify the proxy-accuracy condition that the idealized training guarantees"], "3": ["keep", ""]},
+"q055": {"3": ["keep", ""]},
+"q056": {"2": ["keep", ""], "3": ["drop", "repeats requirement 1"]},
+"q058": {"1": ["reword", "Let the agent itself decide when to compress its interaction history"]},
+"q059": {"2": ["reword", "Check whether a step's reward reflects that step's own effect on task success rather than downstream noise"]}
+}

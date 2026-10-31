@@ -1,0 +1,1140 @@
+{
+ "decisions": {
+  "q010": {
+   "3": [
+    "reword",
+    "Make the representation formal, machine-readable and interoperable so studies can be compared and reproduced"
+   ]
+  },
+  "q011": {
+   "3": [
+    "drop",
+    "repeats requirements 1 and 2; the paper itself is the answer"
+   ]
+  },
+  "q014": {
+   "1": [
+    "drop",
+    "question asks which metric predicts flips, not for definitions"
+   ]
+  },
+  "q017": {
+   "1": [
+    "drop",
+    "question does not ask for definitions of the arms"
+   ],
+   "2": [
+    "reword",
+    "Allocate the limited replays between human-only and agent-only baselines"
+   ],
+   "3": [
+    "reword",
+    "Choose the replays so the test of team versus both baselines stays valid"
+   ]
+  },
+  "q019": {
+   "3": [
+    "drop",
+    "diagnostics not asked by the question"
+   ]
+  },
+  "q025": {
+   "2": [
+    "reword",
+    "Give sparsely connected nodes fewer layers to avoid over-smoothing and well-connected hubs more layers"
+   ],
+   "3": [
+    "drop",
+    "implementation details (masking, gates) invented"
+   ]
+  },
+  "q027": {
+   "1": [
+    "drop",
+    "question asks how they compare, not how each selects"
+   ],
+   "3": [
+    "drop",
+    "cost and validity trade-offs not asked"
+   ]
+  },
+  "q028": {
+   "3": [
+    "reword",
+    "Cope with open-set conditions where unseen threats are unknown during training"
+   ]
+  },
+  "q030": {
+   "3": [
+    "drop",
+    "evidence and limitations not asked"
+   ]
+  },
+  "q031": {
+   "3": [
+    "drop",
+    "stall and safety monitoring not asked"
+   ]
+  },
+  "q033": {
+   "1": [
+    "drop",
+    "realism and diversity not asked"
+   ],
+   "3": [
+    "drop",
+    "repeats requirement 2"
+   ]
+  },
+  "q034": {
+   "2": [
+    "drop",
+    "second-source cross-checks invented; question asks to notice and recover"
+   ],
+   "3": [
+    "reword",
+    "Help the agent recover once a plausible but wrong result is noticed"
+   ]
+  },
+  "q036": {
+   "3": [
+    "drop",
+    "validation of generated code not asked"
+   ]
+  },
+  "q037": {
+   "2": [
+    "reword",
+    "Avoid hand-coding and validating every calculator individually"
+   ],
+   "3": [
+    "drop",
+    "safeguards and clinician review invented"
+   ]
+  },
+  "q039": {
+   "1": [
+    "keep",
+    ""
+   ],
+   "3": [
+    "drop",
+    "repeats requirements 1 and 2"
+   ]
+  },
+  "q040": {
+   "3": [
+    "drop",
+    "caveat note is not an answer requirement"
+   ]
+  },
+  "q041": {
+   "2": [
+    "drop",
+    "explaining Croston methods not asked"
+   ]
+  },
+  "q042": {
+   "3": [
+    "drop",
+    "repeats requirements 1 and 2"
+   ]
+  },
+  "q044": {
+   "3": [
+    "drop",
+    "limitations survey not asked"
+   ]
+  },
+  "q045": {
+   "3": [
+    "drop",
+    "meta instruction about honesty is not content"
+   ]
+  },
+  "q047": {
+   "3": [
+    "drop",
+    "meta instruction about uncertainty is not content"
+   ]
+  },
+  "q049": {
+   "3": [
+    "drop",
+    "assumptions not asked"
+   ]
+  },
+  "q050": {
+   "1": [
+    "keep",
+    "gold says it does not reliably improve training; that is still the answer"
+   ],
+   "2": [
+    "keep",
+    "gold says scores do not robustly predict quality; still the answer"
+   ]
+  },
+  "q051": {
+   "1": [
+    "drop",
+    "definition not asked; repeats requirement 2"
+   ]
+  },
+  "q053": {
+   "1": [
+    "reword",
+    "Identify a method that pairs an audio-conditioned verifier with cross-turn voting on SpokenWOZ"
+   ]
+  },
+  "q054": {
+   "1": [
+    "reword",
+    "Specify the proxy-accuracy condition that the idealized training guarantees"
+   ],
+   "3": [
+    "keep",
+    ""
+   ]
+  },
+  "q055": {
+   "3": [
+    "keep",
+    ""
+   ]
+  },
+  "q056": {
+   "2": [
+    "keep",
+    ""
+   ],
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q058": {
+   "1": [
+    "reword",
+    "Let the agent itself decide when to compress its interaction history"
+   ]
+  },
+  "q059": {
+   "2": [
+    "reword",
+    "Check whether a step's reward reflects that step's own effect on task success rather than downstream noise"
+   ]
+  },
+  "q065": {
+   "3": [
+    "drop",
+    "naming other methods not asked"
+   ]
+  },
+  "q066": {
+   "2": [
+    "reword",
+    "Combine the checks into a rule for when to abstain"
+   ]
+  },
+  "q067": {
+   "2": [
+    "reword",
+    "Make the latent dimensions ordered by the variance they explain"
+   ],
+   "3": [
+    "drop",
+    "joint regularization is invented"
+   ]
+  },
+  "q068": {
+   "3": [
+    "reword",
+    "Use the limited real-world test results to correct the simulator's failure signal"
+   ]
+  },
+  "q070": {
+   "3": [
+    "reword",
+    "Use a model suited to disordered regions, such as a protein language model"
+   ]
+  },
+  "q071": {
+   "2": [
+    "reword",
+    "Identify the mechanism in the training updates that causes the accuracy loss"
+   ]
+  },
+  "q074": {
+   "3": [
+    "drop",
+    "limitations and alternatives not asked"
+   ]
+  },
+  "q075": {
+   "1": [
+    "drop",
+    "background explanation not asked"
+   ]
+  },
+  "q078": {
+   "2": [
+    "drop",
+    "realism validation invented; latent coupling already in requirement 1"
+   ]
+  },
+  "q079": {
+   "1": [
+    "reword",
+    "Explain why a pairwise ranking loss alone makes attribute embeddings collapse to near-random geometry"
+   ]
+  },
+  "q080": {
+   "3": [
+    "drop",
+    "naming works or hedging not asked"
+   ]
+  },
+  "q084": {
+   "1": [
+    "reword",
+    "Judge the quality of incoming test data without using source data or statistics"
+   ],
+   "3": [
+    "drop",
+    "safeguards invented"
+   ]
+  },
+  "q085": {
+   "2": [
+    "reword",
+    "Calibrate the model on the target graph without labeled target data"
+   ],
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q086": {
+   "3": [
+    "drop",
+    "conditions and uncertainty not asked"
+   ]
+  },
+  "q090": {
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q091": {
+   "3": [
+    "drop",
+    "admission control and output length prediction invented"
+   ]
+  },
+  "q092": {
+   "3": [
+    "reword",
+    "Offer an interpretable rule based form derived from the Bernstein activations"
+   ]
+  },
+  "q093": {
+   "1": [
+    "drop",
+    "diarization, face tracking and lip sync pipeline invented"
+   ],
+   "3": [
+    "reword",
+    "Handle very short utterances where voice based identification is unreliable"
+   ]
+  },
+  "q094": {
+   "2": [
+    "reword",
+    "Keep the model from learning to evade the probes"
+   ]
+  },
+  "q095": {
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q097": {
+   "3": [
+    "drop",
+    "joint plausibility not asked"
+   ]
+  },
+  "q098": {
+   "1": [
+    "keep",
+    ""
+   ],
+   "2": [
+    "keep",
+    ""
+   ],
+   "3": [
+    "drop",
+    "limits and caveats not asked"
+   ]
+  },
+  "q100": {
+   "2": [
+    "reword",
+    "Propose a concrete method that makes simulated students answer wrongly in a realistic way at each skill level"
+   ],
+   "3": [
+    "drop",
+    "validation against real distributions not asked"
+   ]
+  },
+  "q102": {
+   "2": [
+    "reword",
+    "Reinterpret value functions and learning algorithms through potential theory"
+   ]
+  },
+  "q103": {
+   "2": [
+    "reword",
+    "Explain through the training dynamics how concept directions become aligned across inputs"
+   ]
+  },
+  "q106": {
+   "1": [
+    "keep",
+    ""
+   ]
+  },
+  "q109": {
+   "2": [
+    "reword",
+    "Make the spectrum encoder capture the mass differences between peaks"
+   ]
+  },
+  "q110": {
+   "1": [
+    "drop",
+    "meta instruction"
+   ],
+   "3": [
+    "drop",
+    "meta instruction"
+   ]
+  },
+  "q113": {
+   "3": [
+    "reword",
+    "Identify an open-source multi-agent tool that builds an extraction schema by asking clarifying questions and testing on documents"
+   ]
+  },
+  "q114": {
+   "3": [
+    "drop",
+    "hardware caveat invented"
+   ]
+  },
+  "q115": {
+   "3": [
+    "drop",
+    "safeguards and fallback invented"
+   ]
+  },
+  "q116": {
+   "1": [
+    "reword",
+    "State how much diesel can be saved when machine learning picks the generator load split"
+   ],
+   "2": [
+    "drop",
+    "invented dependency claim"
+   ],
+   "3": [
+    "drop",
+    "invented provenance claim"
+   ]
+  },
+  "q119": {
+   "3": [
+    "reword",
+    "Predict the needed subspace dimension from a theoretical quantity instead of only by sweeping"
+   ]
+  },
+  "q122": {
+   "3": [
+    "keep",
+    ""
+   ]
+  },
+  "q123": {
+   "1": [
+    "reword",
+    "Score each part of the agent's operating context against defined criteria"
+   ]
+  },
+  "q124": {
+   "3": [
+    "drop",
+    "repeats requirement 2"
+   ]
+  },
+  "q126": {
+   "3": [
+    "drop",
+    "disaster constraints invented"
+   ]
+  },
+  "q127": {
+   "2": [
+    "reword",
+    "Use an iterative eigensolver that needs only kernel-vector products to get the leading eigenvectors"
+   ],
+   "3": [
+    "reword",
+    "Work in the small bandwidth regime where the kernel matrix is dense and high rank"
+   ]
+  },
+  "q133": {
+   "2": [
+    "keep",
+    ""
+   ]
+  },
+  "q135": {
+   "1": [
+    "reword",
+    "Combine retrieval-augmented language models, thermal imaging, vision foundation models and wireless sensing into one pipeline for damage assessment"
+   ]
+  },
+  "q136": {
+   "3": [
+    "reword",
+    "Measure the memory share exactly rather than estimating it, beyond what total-spend dashboards show"
+   ]
+  },
+  "q140": {
+   "1": [
+    "reword",
+    "Identify a transformer that feeds the last layer's hidden state back in as the next input"
+   ],
+   "3": [
+    "drop",
+    "trade-off claims invented"
+   ]
+  },
+  "q142": {
+   "2": [
+    "reword",
+    "Say how to diagnose whether a model keeps a consistent first-person identity across a conversation"
+   ]
+  },
+  "q143": {
+   "1": [
+    "keep",
+    "gold says it does not beat BM25; still the answer"
+   ],
+   "2": [
+    "keep",
+    "gold says it does not beat hybrid; still the answer"
+   ],
+   "3": [
+    "drop",
+    "vague repeat of 1 and 2"
+   ]
+  },
+  "q145": {
+   "2": [
+    "reword",
+    "Link system goals and functions to the physical components that realize them"
+   ]
+  },
+  "q146": {
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q147": {
+   "2": [
+    "reword",
+    "Compare output diversity statistically across successive model releases"
+   ],
+   "3": [
+    "drop",
+    "validation against human judgment not asked"
+   ]
+  },
+  "q149": {
+   "2": [
+    "reword",
+    "Train a reward model from the preferences and reasons and use it with the learned simulator to run the agent"
+   ]
+  },
+  "q151": {
+   "3": [
+    "drop",
+    "limits note not asked"
+   ]
+  },
+  "q152": {
+   "3": [
+    "drop",
+    "naming literature not asked"
+   ]
+  },
+  "q153": {
+   "3": [
+    "drop",
+    "cost and constraint satisfaction invented; repeats requirement 2"
+   ]
+  },
+  "q155": {
+   "3": [
+    "drop",
+    "naming literature not asked"
+   ]
+  },
+  "q156": {
+   "2": [
+    "reword",
+    "Evaluate how well language models match the Chinese readers' interpretations and the American predictions"
+   ]
+  },
+  "q158": {
+   "3": [
+    "drop",
+    "naming techniques and trade-offs not asked"
+   ]
+  },
+  "q159": {
+   "1": [
+    "keep",
+    ""
+   ],
+   "2": [
+    "keep",
+    ""
+   ],
+   "3": [
+    "keep",
+    ""
+   ]
+  },
+  "q161": {
+   "1": [
+    "reword",
+    "Identify a computational model in which emotions emerge from goal discrepancy and action selection"
+   ],
+   "3": [
+    "drop",
+    "citing a theory not asked"
+   ]
+  },
+  "q163": {
+   "3": [
+    "drop",
+    "empirical verification and norm ambiguity invented"
+   ]
+  },
+  "q165": {
+   "3": [
+    "drop",
+    "calibration and reliability gaps invented"
+   ]
+  },
+  "q167": {
+   "3": [
+    "drop",
+    "caveat note is not an answer requirement"
+   ]
+  },
+  "q168": {
+   "3": [
+    "drop",
+    "separating intransitivity from noise or context effects not asked"
+   ]
+  },
+  "q172": {
+   "1": [
+    "reword",
+    "Build preference pairs by perturbing an instruction's constraints so near-identical instructions differ"
+   ],
+   "2": [
+    "reword",
+    "Verify each response against the individual constraints so the labels reflect them"
+   ],
+   "3": [
+    "drop",
+    "shared-response negatives invented"
+   ]
+  },
+  "q174": {
+   "3": [
+    "reword",
+    "Reveal only the distinctions that could change the stop or continue decision"
+   ]
+  },
+  "q175": {
+   "3": [
+    "drop",
+    "empirical validation and recalibration invented"
+   ]
+  },
+  "q181": {
+   "3": [
+    "reword",
+    "Change what the data teaches as the limiting failure shifts across stages of training"
+   ]
+  },
+  "q184": {
+   "2": [
+    "drop",
+    "training data and augmentation details invented"
+   ],
+   "3": [
+    "reword",
+    "Run in real time on embedded hardware"
+   ]
+  },
+  "q185": {
+   "3": [
+    "drop",
+    "naming related works not asked"
+   ]
+  },
+  "q186": {
+   "3": [
+    "reword",
+    "Plan using only a short prefix of the latent"
+   ]
+  },
+  "q189": {
+   "3": [
+    "drop",
+    "validation with scanners invented"
+   ]
+  },
+  "q195": {
+   "3": [
+    "drop",
+    "anomaly detection aggregation invented"
+   ]
+  },
+  "q197": {
+   "3": [
+    "drop",
+    "meta instruction to assess the paper"
+   ]
+  },
+  "q199": {
+   "2": [
+    "reword",
+    "Provide a memory layer that surfaces relevant past experience independently of the agent's own code"
+   ]
+  },
+  "q200": {
+   "3": [
+    "drop",
+    "naming the paper or hedging not asked"
+   ]
+  },
+  "q201": {
+   "1": [
+    "reword",
+    "Whether the loss gap between any two tokens stays about the same across models trained with different optimizers or slightly different architectures"
+   ]
+  },
+  "q203": {
+   "3": [
+    "keep",
+    ""
+   ]
+  },
+  "q205": {
+   "3": [
+    "drop",
+    "critic or likelihood decomposition details invented; repeats requirements 1 and 2"
+   ]
+  },
+  "q206": {
+   "2": [
+    "keep",
+    ""
+   ]
+  },
+  "q207": {
+   "3": [
+    "drop",
+    "seeds and statistical tests invented"
+   ]
+  },
+  "q208": {
+   "3": [
+    "drop",
+    "metrics and baselines invented"
+   ]
+  },
+  "q209": {
+   "1": [
+    "reword",
+    "Explain why benchmark scores alone cannot justify approving LLM applications for production in banks"
+   ],
+   "3": [
+    "drop",
+    "documented risk assessment claim invented"
+   ]
+  },
+  "q212": {
+   "3": [
+    "drop",
+    "limits and reliability not asked"
+   ]
+  },
+  "q213": {
+   "3": [
+    "drop",
+    "per label results not asked"
+   ]
+  },
+  "q214": {
+   "1": [
+    "reword",
+    "Avoid the error from averaging the two adapter factor matrices separately"
+   ],
+   "2": [
+    "reword",
+    "Avoid the mismatch from re-initializing clients from newly reconstructed factors"
+   ],
+   "3": [
+    "reword",
+    "Support clients that use different adapter ranks"
+   ]
+  },
+  "q215": {
+   "3": [
+    "drop",
+    "specifics and limitations are not a requirement"
+   ]
+  },
+  "q216": {
+   "1": [
+    "reword",
+    "Represent each event with the physiological state before it, its context and intervention, and the trajectory after it"
+   ],
+   "2": [
+    "reword",
+    "Model how the whole person's physiological state changes after an event, from continuous wearable sensing"
+   ],
+   "3": [
+    "drop",
+    "causal validation invented"
+   ]
+  },
+  "q217": {
+   "1": [
+    "reword",
+    "Explain why repeated summarization increases blocked actions, repeated exploration and instability across runs"
+   ]
+  },
+  "q218": {
+   "1": [
+    "reword",
+    "Involve community members as participants in building the dataset, not only as sources of data"
+   ],
+   "3": [
+    "drop",
+    "ownership, compensation and withdrawal rights invented"
+   ]
+  },
+  "q223": {
+   "3": [
+    "drop",
+    "evidence of shared training not asked"
+   ]
+  },
+  "q228": {
+   "3": [
+    "drop",
+    "learning from corrections invented"
+   ]
+  },
+  "q229": {
+   "2": [
+    "drop",
+    "repeats requirement 1"
+   ],
+   "3": [
+    "reword",
+    "Preserve the range of acceptable moves without losing correctness"
+   ]
+  },
+  "q232": {
+   "3": [
+    "drop",
+    "trade-offs invented"
+   ]
+  },
+  "q233": {
+   "3": [
+    "drop",
+    "authors, venue and year not asked"
+   ]
+  },
+  "q235": {
+   "1": [
+    "reword",
+    "Turn logged operational event data into evidence about a proposed action, including how good that evidence is"
+   ],
+   "2": [
+    "reword",
+    "Decide among take, postpone, query and decline while accounting for privacy limits, organizational authority and downstream risk"
+   ],
+   "3": [
+    "drop",
+    "thresholds and escalation rules invented"
+   ]
+  },
+  "q236": {
+   "3": [
+    "drop",
+    "confirming existence not asked"
+   ]
+  },
+  "q240": {
+   "2": [
+    "reword",
+    "Measure how much valid closed-loop evidence the rollouts give, instead of counting raw failures"
+   ],
+   "3": [
+    "drop",
+    "fidelity against real logs invented"
+   ]
+  },
+  "q241": {
+   "2": [
+    "reword",
+    "Use preference optimization on the newer model"
+   ],
+   "3": [
+    "reword",
+    "Keep the newer model's existing quality from degrading"
+   ]
+  },
+  "q244": {
+   "1": [
+    "reword",
+    "Detect rare catastrophic cost tail events during training, beyond expected cost"
+   ],
+   "2": [
+    "keep",
+    ""
+   ],
+   "3": [
+    "reword",
+    "Do this without fitting a parametric tail model"
+   ]
+  },
+  "q246": {
+   "3": [
+    "drop",
+    "communication trade-off not asked"
+   ]
+  },
+  "q247": {
+   "1": [
+    "drop",
+    "profiling step invented"
+   ]
+  },
+  "q250": {
+   "3": [
+    "drop",
+    "reward optimization method details invented"
+   ]
+  },
+  "q251": {
+   "3": [
+    "drop",
+    "limitations note not asked"
+   ]
+  },
+  "q253": {
+   "2": [
+    "drop",
+    "flaw taxonomy and human label validation invented"
+   ],
+   "3": [
+    "drop",
+    "step chunking and reliability weighting invented"
+   ]
+  },
+  "q254": {
+   "2": [
+    "reword",
+    "Get a faster and more sensible causal graph by using the known stage ordering"
+   ]
+  },
+  "q255": {
+   "2": [
+    "drop",
+    "metrics and ground truth details invented; repeats requirement 1"
+   ]
+  },
+  "q256": {
+   "1": [
+    "drop",
+    "selective labels are not what the question asks"
+   ],
+   "3": [
+    "drop",
+    "audits and randomized data invented"
+   ]
+  },
+  "q261": {
+   "3": [
+    "drop",
+    "which conditions favor which method not asked"
+   ]
+  },
+  "q265": {
+   "3": [
+    "drop",
+    "hierarchy and synonyms invented"
+   ]
+  },
+  "q266": {
+   "2": [
+    "keep",
+    ""
+   ]
+  },
+  "q272": {
+   "3": [
+    "drop",
+    "publication gaps not asked"
+   ]
+  },
+  "q273": {
+   "1": [
+    "reword",
+    "Test whether models tell apart paired near-identical obstetric and pediatric cases that need different treatments"
+   ]
+  },
+  "q276": {
+   "3": [
+    "drop",
+    "repeats requirement 1"
+   ]
+  },
+  "q277": {
+   "3": [
+    "drop",
+    "limitations not asked"
+   ]
+  },
+  "q278": {
+   "1": [
+    "reword",
+    "Identify a paper where the agent keeps its history in a persistent Python kernel and searches it with code"
+   ]
+  },
+  "q279": {
+   "3": [
+    "drop",
+    "loss function and negative sampling details invented"
+   ]
+  },
+  "q281": {
+   "2": [
+    "reword",
+    "Learn edge marginals without supervised tour labels"
+   ]
+  },
+  "q282": {
+   "3": [
+    "drop",
+    "repeats requirements 1 and 2"
+   ]
+  },
+  "q285": {
+   "1": [
+    "reword",
+    "Represent the clinical notes as semantic graphs"
+   ],
+   "3": [
+    "drop",
+    "repeats requirement 2"
+   ]
+  },
+  "q286": {
+   "2": [
+    "reword",
+    "Let a clinician trace each herb and dose recommendation back to explicit patient specific evidence"
+   ],
+   "3": [
+    "drop",
+    "deterministic reasoning steps invented; repeats requirement 2"
+   ]
+  },
+  "q287": {
+   "3": [
+    "drop",
+    "meta instruction about uncertainty"
+   ]
+  },
+  "q289": {
+   "2": [
+    "reword",
+    "State the properties a model needs to handle high stakes numerical decisions reliably"
+   ],
+   "3": [
+    "drop",
+    "accountability requirements invented"
+   ]
+  },
+  "q292": {
+   "3": [
+    "drop",
+    "limits not asked"
+   ]
+  },
+  "q294": {
+   "1": [
+    "reword",
+    "Treat the learner persona as an explicit criterion when judging the generated instructional videos"
+   ],
+   "3": [
+    "drop",
+    "pipeline validation checks invented"
+   ]
+  },
+  "q295": {
+   "2": [
+    "reword",
+    "Describe internal mechanisms that could explain the worse handling of technical vocabulary"
+   ],
+   "3": [
+    "drop",
+    "narrower coverage claim invented"
+   ]
+  },
+  "q297": {
+   "1": [
+    "drop",
+    "defining the features is not what the question asks"
+   ]
+  }
+ },
+ "gold_gaps": {
+  "q098": "abstract only poses the question and reports no result, so it cannot answer requirements 1 and 2",
+  "q159": "abstract says commercial speech APIs and multimodal models were evaluated but reports no results, so it cannot answer how well they perform"
+ },
+ "notes": {
+  "q033": "abstract trains on synthetic speech but reports no human-recorded baseline, so requirement 2 is only partly supported (gold coverage caveat)",
+  "q094": "original wording (held out detectors) is the opposite of the paper, which finds fixed probes exploitable and continuously updated probes work",
+  "q116": "original 2 to 10 percent figure contradicts the paper (27 percent per day against the worst load combinations, about 24,000 litres per day); the only requirement left asks for the saving",
+  "q201": "original wording said across token positions, which is not what the question or paper asks"
+ }
+}

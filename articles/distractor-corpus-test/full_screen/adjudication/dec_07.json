@@ -1,0 +1,12 @@
+{
+"q136": {"3": ["reword", "Measure the memory share exactly rather than estimating it, beyond what total-spend dashboards show"]},
+"q140": {"1": ["reword", "Identify a transformer that feeds the last layer's hidden state back in as the next input"], "3": ["drop", "trade-off claims invented"]},
+"q142": {"2": ["reword", "Say how to diagnose whether a model keeps a consistent first-person identity across a conversation"]},
+"q143": {"1": ["keep", "gold says it does not beat BM25; still the answer"], "2": ["keep", "gold says it does not beat hybrid; still the answer"], "3": ["drop", "vague repeat of 1 and 2"]},
+"q145": {"2": ["reword", "Link system goals and functions to the physical components that realize them"]},
+"q146": {"3": ["drop", "repeats requirement 1"]},
+"q147": {"2": ["reword", "Compare output diversity statistically across successive model releases"], "3": ["drop", "validation against human judgment not asked"]},
+"q149": {"2": ["reword", "Train a reward model from the preferences and reasons and use it with the learned simulator to run the agent"]},
+"q151": {"3": ["drop", "limits note not asked"]},
+"q152": {"3": ["drop", "naming literature not asked"]}
+}

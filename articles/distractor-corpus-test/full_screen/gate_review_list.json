@@ -1,0 +1,2439 @@
+[
+ {
+  "qid": "q010",
+  "original": [
+   "Define a standard schema for MLIP algorithms, hyperparameters, and architectures",
+   "Specify provenance-rich dataset and benchmark records linked via shared ontologies and identifiers",
+   "Provide machine-readable serialization, validation, and interoperable APIs enabling comparison and reproduction"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q011",
+  "original": [
+   "Name a small open language model around 2B parameters",
+   "Confirm it compared pretraining with versus without instruction-style data",
+   "Report the comparison results or identify the relevant paper"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q014",
+  "original": [
+   "Define what each metric measures: total variation distance versus KL divergence between output distributions",
+   "Explain which metric better predicts top-token disagreement between quantized and original models",
+   "Justify the choice with the mathematical relationship or empirical evidence behind it"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q017",
+  "original": [
+   "Define the three arms: human-only, agent-only, and human-AI team",
+   "Split the limited replays across arms to get enough power for comparison",
+   "Pick replay tasks and metrics so the team-versus-best-solo comparison is valid"
+  ],
+  "haiku_supported": [
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q019",
+  "original": [
+   "Sampling from a posterior restricted to a rare event: needs a method that reaches the tail",
+   "Valid, unbiased draws from the constrained posterior over causal graphs and parameters, e.g. via sequential Monte Carlo, tempering, or conditioned MCMC",
+   "Diagnostics confirming the rare region is actually explored and samples are weighted correctly"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q025",
+  "original": [
+   "Per-node adaptive depth: learn or compute a stopping/halting signal for each node, so propagation depth varies with connectivity.",
+   "Over-smoothing control: stop or gate aggregation for sparse nodes early, while hubs keep propagating to reach distant information.",
+   "Efficient implementation on user-item bipartite graphs: use masking, attention gates, or jumping-knowledge readouts so per-node depths need no separate models."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q027",
+  "original": [
+   "Describe how each strategy (gradient-sensitivity, SHAP, penalized regression, LLM-guided) selects diagnosis codes",
+   "Compare their predictive performance, interpretability, and stability for opioid use disorder prediction",
+   "Discuss trade-offs in data requirements, computational cost, and clinical validity across strategies"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q028",
+  "original": [
+   "Represent attack categories via language-model semantic descriptions, enabling zero-shot matching to unseen classes",
+   "Handle overlapping descriptions and class imbalance through calibrated, reweighted, or contrastive embedding training",
+   "Detect unknown unseen categories by flagging low-confidence or out-of-distribution samples for review"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q030",
+  "original": [
+   "Capability of a frozen LLM agent with NMR tools on structure elucidation",
+   "Comparison against graduate chemistry students on equivalent NMR tasks",
+   "Evidence, limitations, and conditions under which the claim holds"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q031",
+  "original": [
+   "Define and enforce the ordered phases of an initial session, with entry and exit criteria for each",
+   "Track session state and steer each reply toward completing the current phase's goals",
+   "Monitor progression, detect stalls or safety risks, and escalate or advance accordingly"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q033",
+  "original": [
+   "Whether TTS-generated Luxembourgish speech is realistic and diverse enough for training",
+   "Whether a QA model trained on synthetic speech performs as well as on human recordings",
+   "Whether synthetic data can fully substitute human data, or only supplement it"
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q034",
+  "original": [
+   "Detect plausible-but-wrong tool outputs via independent validation: schema, range, and semantic sanity checks",
+   "Cross-verify suspicious results against second sources, and surface uncertainty rather than silently accepting values",
+   "Recover by retrying, quarantining bad data, and tracing errors back to the faulty tool call"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q036",
+  "original": [
+   "Prompt design: supplying statistical summaries, causal dependencies, and normal-data prototypes as context",
+   "Generating executable scoring code that flags anomalies without fine-tuning or neural network training",
+   "Validating the generated code's correctness and anomaly detection performance on held-out data"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q037",
+  "original": [
+   "Mechanism for reliable arithmetic: delegate computation to tools or code execution",
+   "Scalable validation without hand-coding each calculator: general verification, reference checks, and auditing",
+   "Safeguards ensuring arithmetic errors don't alter medical recommendations: cross-checks, uncertainty flags, clinician review"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q039",
+  "original": [
+   "Compare Poincare ball versus Euclidean prototype geometry for art-style classes",
+   "Assess preservation of nearest-neighbor structure under tree-structured regularization",
+   "Determine whether hyperbolic embedding gives an advantage for related classes"
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q040",
+  "original": [
+   "Mechanisms of failure: distribution shift, sparse features, and label noise in the archive",
+   "Quantify contribution of missing features versus differing label rates versus model choice",
+   "Note that exact attribution depends on dataset specifics and needs controlled ablation experiments"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q041",
+  "original": [
+   "Assess whether gradient-boosted trees handle intermittent demand with many zeros well",
+   "Explain how Croston-style methods work and why they suit sporadic demand",
+   "Advise whether to use boosting alone or hybridize it with Croston-style methods"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q042",
+  "original": [
+   "Mechanism to remove visual tokens and multimodal KV cache before decoding",
+   "Recurrent latent computation over fixed image representation as sole information route",
+   "Training or verification ensuring answers genuinely require latent visual reasoning"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q044",
+  "original": [
+   "Whether one model exists that disaggregates appliances from text descriptions",
+   "Whether whole-home meter signals can yield an appliance's power from text",
+   "Current state of research and practical limitations of such approaches"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q045",
+  "original": [
+   "Does a formal spectral-radius theory exist explaining self-correction failure versus correcting attributed errors?",
+   "Is there a threshold for when a marker like 'Wait' triggers correction, with an RL verifier-corrector convergence condition?",
+   "Be honest about whether such a formal theory has actually been established or remains unverified."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q047",
+  "original": [
+   "Identify a specific paper combining GNNs, RFID readings, and floorplans",
+   "Show it infers spatial layout rather than only tag coordinates",
+   "Acknowledge uncertainty since I cannot verify exact citations"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q049",
+  "original": [
+   "Sample complexity bound for learning nested conditional distribution features (mean, variance, skewness) simultaneously unbiased across groups",
+   "Dependence on number of features k, number of groups, and target error epsilon, with scaling rates",
+   "Assumptions required: finite moments, smoothness, and how nested conditioning inflates sample requirements"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q050",
+  "original": [
+   "Whether answer-support labels improve retriever training versus topical relevance labels",
+   "Whether answer-support judgments predict end-to-end RAG answer quality",
+   "Caveats about evidence, tradeoffs, and when topical relevance still suffices"
+  ],
+  "haiku_supported": [
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q051",
+  "original": [
+   "Define whitened squared norm: it equals the Mahalanobis distance to the in-distribution mean",
+   "Assess whether it is a valid likelihood proxy versus an atypicality score",
+   "Explain miscalibration risk under Gaussian tail thresholds for high-dimensional foundation-model embeddings"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q053",
+  "original": [
+   "Identify whether a specific method exists for this exact problem",
+   "Explain audio-conditioned verifier component for checking ASR-derived slot values",
+   "Explain cross-turn voting component for correcting slot value errors in SpokenWOZ"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q054",
+  "original": [
+   "Specify the training condition: proxy accuracy holds on typical, non-extreme distributions.",
+   "Show divergence arises where proxy and true value differ, under extreme optimization.",
+   "State the human-value conditions allowing low true value to pass training."
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q055",
+  "original": [
+   "Durable storage of task state, user facts, and lessons learned across sessions",
+   "Access control, retrieval speed, and update or deletion policies for stored memory",
+   "Selective write rules deciding what gets stored, summarized, or discarded from long conversations"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q056",
+  "original": [
+   "Identify a CLIP-based tool for word spotting in handwritten documents",
+   "Confirm it works without transcriptions and suits colonial Argentine notary manuscripts",
+   "Name any existing system, dataset, or project addressing this specific case"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q058",
+  "original": [
+   "Criteria for deciding when to compress: token budget, relevance decay, and task-phase signals",
+   "Mechanism for compressing history while archiving full originals in external recoverable storage",
+   "Retrieval path that lets the agent restore archived details on demand without permanent loss"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q059",
+  "original": [
+   "Measure which steps have high outcome variance or leave the policy uncertain, e.g. via value estimates or rollout disagreement.",
+   "Estimate each step's causal contribution to final reward by counterfactual rollouts or per-step advantage attribution.",
+   "Pick the step where improvement most likely moves task success and is learnable, not just frequent or noisy."
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q065",
+  "original": [
+   "Identify whether a CNN approach predicts all pairwise capacitances in a layout window",
+   "Explain how spatial map outputs reduce passes from quadratic to linear",
+   "Name representative methods and their scaling or limitations"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q066",
+  "original": [
+   "Cheap label-free signals to flag uncertain answers, such as re-solving consistency",
+   "Combining those signals into one abstention score per query",
+   "Calibrating a threshold on labeled data to guarantee bounded error among served answers"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q067",
+  "original": [
+   "Define an orthogonality penalty on latent codes' covariance, forcing decorrelated dimensions.",
+   "Impose ordering via dropout or nested reconstruction losses, so earlier dimensions carry more variance.",
+   "Regularize decoder and encoder jointly, since nonlinear maps alone don't guarantee PCA-like structure."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q068",
+  "original": [
+   "Use a cheap simulator to screen many candidate scenarios and rank them by predicted failure or novelty",
+   "Select a diverse subset for real testing, using coverage metrics and sim-to-real calibration to avoid redundancy",
+   "Feed real-world results back to refine the simulator and the selection criteria iteratively"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q070",
+  "original": [
+   "Define the target properties (compaction, phosphorylation sites) and their labels for disordered regions",
+   "Handle scarce labels and low sequence similarity, e.g., via embeddings, transfer learning, and cross-validation",
+   "Choose features and models suited to structureless regions, such as physicochemical profiles or protein language models"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q071",
+  "original": [
+   "Explain the observed phenomenon: accuracy drops after grokking despite decodable answer",
+   "Identify the mechanism tied to Muon's optimizer dynamics or weight geometry",
+   "Explain why linear decodability persists while the model's output stays wrong"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q074",
+  "original": [
+   "Explain whether token-deletion flip tests can identify trustworthy confident classifier predictions",
+   "Describe the method: perturb or remove tokens, check label flips, and measure stability",
+   "Note limitations, such as confidence-stability mismatch, and suggest better alternatives or validations"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q075",
+  "original": [
+   "Explain how optimal transport assignment with pre-trained embeddings yields zero-shot labels",
+   "Show how neighborhood smoothing on a similarity graph reduces miscalibration",
+   "Describe clustering-informed cost terms and how they improve calibration"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q078",
+  "original": [
+   "Design agents with latent states driving transactions, payments, status changes, and interventions",
+   "Specify coupling mechanisms, event generation, and realism validation for the synthetic stream",
+   "Define benchmark tasks and baseline models for evaluating inference on this data"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q079",
+  "original": [
+   "Explain why pairwise ranking loss leaves attribute embeddings under-constrained and near-random.",
+   "Show how a classification objective for one-to-one relations restores geometry without hurting ranking."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q080",
+  "original": [
+   "Identify whether a specific EEG emotion recognition model uses simplicial complexes over time",
+   "Explain how it differs from pairwise brain graph approaches",
+   "Name representative works or acknowledge uncertainty about existence"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q084",
+  "original": [
+   "Define a quality signal from test batches alone, such as prediction entropy or confidence, without source data.",
+   "Map that signal to a per-step EMA momentum, raising it when quality is low to slow teacher updates.",
+   "Add safeguards like stochastic restoration or confidence thresholds so error accumulation and drift stay bounded."
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q085",
+  "original": [
+   "Theoretically characterize how structural shift alters GNN confidence, via message-passing and degree/homophily analysis",
+   "Calibrate the model on target graph without labels, using unlabeled structure-aware methods like entropy or self-training",
+   "Verify direction of miscalibration (over- vs under-confidence) without target labels, using proxy or consistency diagnostics"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q086",
+  "original": [
+   "Define what each factor means: training objective (BPE merge rule vs unigram likelihood) and search method (greedy merges vs EM/Viterbi segmentation)",
+   "Explain which factor drives downstream LM performance differences, and why, using evidence",
+   "State the conditions under which the answer changes or remains uncertain"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q090",
+  "original": [
+   "Define evaluation by whether outputs support a specific scientific claim, not reference error",
+   "Explain how claim-based and reference-error rankings can disagree, and whether they do",
+   "Cover concrete protocols for claim-based evaluation of neural PDE and inverse solvers"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q091",
+  "original": [
+   "Real-time dispatch policy across parallel decode workers under batch-slot and KV-cache memory constraints",
+   "Principled latency-throughput tradeoff via explicit targets, such as SLO-constrained optimization or queueing models",
+   "Admission control and load balancing that account for per-request KV-cache footprint and predicted output length"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q092",
+  "original": [
+   "Specify the distillation method: teacher-student training that fits Bernstein polynomial activations.",
+   "Map Bernstein basis evaluation to FPGA LUT or rule-based implementation.",
+   "Ensure interpretability by extracting human-readable rules from the polynomial coefficients."
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q093",
+  "original": [
+   "Pipeline combining speaker diarization, face tracking, and lip-sync audio-visual matching per shot.",
+   "Reasoning model fuses cues: subtitles, scene context, dialogue history, and cast metadata.",
+   "Handle short utterances with visual evidence like lip movement, plus confidence scoring and tool verification."
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q094",
+  "original": [
+   "Define a training signal on internal activations, using probes or detectors for harmful or dishonest representations",
+   "Prevent evasion by keeping detectors held out, varied, and not directly optimized against, so representations stay inspectable"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1
+  ]
+ },
+ {
+  "qid": "q095",
+  "original": [
+   "Identify surveys on large pretrained models for wireless and 6G networks",
+   "Cover architectures, self-supervised pretraining methods, and task adaptation approaches",
+   "Name specific surveys or papers that address all three topics"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q097",
+  "original": [
+   "Retrieve per-variable matches: find each variable's best historical analogue independently, not one shared window.",
+   "Combine the retrieved continuations: fuse per-variable continuations into one coherent multivariate forecast, handling mismatched timing.",
+   "Keep cross-variable structure: respect correlations between variables so fused predictions remain jointly plausible."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q098",
+  "original": [
+   "Whether LLMs can read Cyrillic phonetic spelling of words",
+   "Whether they can decode such text as a secret code",
+   "Limits, examples, or caveats in how well they do it"
+  ],
+  "haiku_supported": [],
+  "sonnet_supported": []
+ },
+ {
+  "qid": "q100",
+  "original": [
+   "Diagnose why models resist simulating weak students, such as correctness bias and training.",
+   "Propose concrete methods to induce realistic errors, like error-profile prompting, fine-tuning, or sampling.",
+   "Explain how to validate that simulated students match real misconception and skill distributions."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q102",
+  "original": [
+   "Fixed policy: Markov chain transitions give harmonic-type value equations and Green's operator solutions",
+   "Reinterpret TD and value iteration as discrete potential-theoretic or Green's function computations",
+   "Changing policy: extend to controlled chains, Bellman optimality, and nonlinear potential-theoretic operators"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q103",
+  "original": [
+   "Timing: when concept directions align across inputs during training, including early versus late phases",
+   "Mechanism: how gradient dynamics and representation learning drive consistent directional alignment across inputs",
+   "Factors: how depth, initialization scale, and data geometry determine alignment strength"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q106",
+  "original": [
+   "Identify devices whose traffic looks suspicious only in combination",
+   "Discover group membership from network data without any prior labels",
+   "Use unsupervised methods to uncover coordinated device clusters"
+  ],
+  "haiku_supported": [
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q109",
+  "original": [
+   "Training objective that upweights or targets fragment ions causing decoder errors",
+   "Spectrum encoder explicitly learns mass differences between peaks as an auxiliary signal",
+   "No extra inputs or database search needed at inference; training-only changes"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q110",
+  "original": [
+   "Identify the paper you mean, since I cannot confirm its exact findings",
+   "Explain whether STAPLE reduces to majority voting under which conditions",
+   "Note that my knowledge of this specific claim may be incomplete"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q113",
+  "original": [
+   "Identify open-source multi-agent frameworks that could support schema design and document testing.",
+   "Name legal-research tools with clarifying-question or schema-building capabilities for court rulings.",
+   "State whether a tool combining these exactly exists, or what partial matches are available."
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q114",
+  "original": [
+   "Storage: sparse or entropy-coded encodings of ternary weights (zero-run or arithmetic coding) beating five-trits-per-byte's 1.6 bits/weight.",
+   "Speed: whether fewer bits and skipped zeros actually reduce decoding latency on CPUs versus GPUs.",
+   "Hardware caveat: CPUs and GPUs often memory-bound, so gains depend on decode kernels and sparsity structure."
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q115",
+  "original": [
+   "On-device speech recognition converting spoken commands to text, without cloud services",
+   "Local intent parsing mapping commands to behaviors, with low latency and high accuracy",
+   "Real-time execution safeguards, validation, and fallback for time-critical racing conditions"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q116",
+  "original": [
+   "Typical savings range from roughly 2 to 10 percent of fuel use",
+   "Savings depend on platform load profile, generator mix, and baseline efficiency",
+   "Results come from published case studies and vendor estimates, varying widely"
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": []
+ },
+ {
+  "qid": "q119",
+  "original": [
+   "Intrinsic dimension: find the minimal subspace dimension d where projected training still reaches near-full performance",
+   "Measure via random projection sweeps, plotting accuracy against dimension to locate the threshold",
+   "Predict d from model parameter count, task difficulty, and data complexity using scaling trends"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q122",
+  "original": [
+   "Identify whether any activation-editing method recovers hidden capabilities from password-locked sandbagging models",
+   "Compare its recovery effectiveness against fine-tuning on the same password-locked models",
+   "Confirm the method requires no weight updates at all"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q123",
+  "original": [
+   "Define scoring rubrics for each context component: instructions, tools, memory, retrieval, guardrails",
+   "Use a judge panel, validate agreement, and test whether scores predict hallucination, tool misuse, injection failures"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q124",
+  "original": [
+   "Assess whether reported router gains reflect content-aware targeting or tier-mix effects",
+   "Explain how fixed-tier and share-matched baselines isolate content-awareness from model-mix advantages",
+   "Describe concrete experimental controls for comparing routers across differing tasks and candidate pools"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q126",
+  "original": [
+   "Define cost-aware level-set estimation: a GP model of damage with travel-cost-weighted acquisition to classify zones above/below threshold.",
+   "Sequentially select UAV waypoints maximizing uncertainty reduction per unit cost, updating the boundary and zone uncertainty after each observation.",
+   "Account for disaster constraints: no-fly hazards, battery and time budgets, communication limits, and replanning as new data arrives."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q127",
+  "original": [
+   "Matrix-free operator: compute kernel-vector products on GPU in tiles without storing N-by-N",
+   "Iterative eigensolver (Lanczos/LOBPCG/Arnoldi) using only matvec products for leading eigenvectors",
+   "Small bandwidth handling: truncate or sparsify distant entries, or use fast approximations (Nyström, random features, FMM)"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q133",
+  "original": [
+   "Architectural mechanisms letting recurrent linear-cost models retain information across far longer contexts",
+   "Training or adaptation methods that generalize beyond pretraining example counts for tabular prediction",
+   "Evaluation of stability and accuracy as labelled example count grows at test time"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q135",
+  "original": [
+   "Design an end-to-end pipeline fusing thermal imaging, wireless sensing, and vision foundation model features",
+   "Ground a retrieval-augmented language model on damage reports for assessment and reasoning",
+   "Compare graph-based versus vector-based retrieval on multi-document questions, with evidence on which wins"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q136",
+  "original": [
+   "Attribute prompt tokens to retrieved memory by tagging each inserted chunk, then logging per-call token counts with and without it.",
+   "Measure cost share per chain depth by tracking memory tokens across each agent step, showing how the fraction grows.",
+   "Use counterfactual replay or a tokenizer diff to isolate memory's exact contribution beyond what total-spend dashboards display."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q140",
+  "original": [
+   "Yes: architectures that feed hidden states back as inputs exist, e.g. Coconut (Chain of Continuous Thought).",
+   "Standard transformers feed back only sampled tokens; hidden-state recurrence is a deliberate design choice.",
+   "Such models trade interpretability and parallel training for continuous latent reasoning, and prior recurrent variants exist too."
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q142",
+  "original": [
+   "Explain why frequency-driven subword merges split rare inflected endings and gendered forms poorly in Slavic languages",
+   "Describe how to diagnose whether a model maintains consistent first-person identity, including gender, across a conversation"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q143",
+  "original": [
+   "Whether evidence-selection-before-answering training beats BM25 retrieval on LongBench-v2",
+   "Whether it also beats hybrid retrieval on LongBench-v2 multiple-choice questions",
+   "Supporting evidence or results comparing these methods on that benchmark"
+  ],
+  "haiku_supported": [],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q145",
+  "original": [
+   "Extract goals, functions, and components from documentation using NLP and knowledge-graph methods",
+   "Link functions to physical components via structured parsing of P&IDs, diagrams, and specifications",
+   "Validate the generated hierarchy and encode dependencies to enable failure propagation tracing"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q146",
+  "original": [
+   "Name a method using a small sidecar model to predict tool names and argument values",
+   "Explain parallel prediction and how it beats schema-based speculative decoding",
+   "Cite or describe concrete examples, papers, or systems implementing this approach"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q147",
+  "original": [
+   "Define a diversity metric: embed each model's outputs and compute pairwise cosine dissimilarity",
+   "Hold prompts and sampling fixed across releases, and compare diversity trends over time statistically",
+   "Validate that embedding-based diversity tracks human judgments of originality and divergent-thinking performance"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q149",
+  "original": [
+   "Collect trajectories from a learned simulator and have humans compare them with stated reasons",
+   "Fit a reward model from preferences and reasons, then optimize the agent against it while checking safety"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q151",
+  "original": [
+   "Explain the method: compare measurable linguistic features like function words, vocabulary, and syntax",
+   "Show how similarity or difference across both texts supports or refutes single authorship",
+   "Note limits: genre, sources, and small samples can confound results"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q152",
+  "original": [
+   "Whether a specific paper establishes synthetic potential outcome moments via a single operator eigendecomposition",
+   "Whether treatment effects reduce to eigenvalues under discrete latent confounders",
+   "Naming relevant literature or stating that no such result is known"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q153",
+  "original": [
+   "Compare planner-writer-reflector-judge pipeline with retrieval against agentic tool-calling variants",
+   "Assess effectiveness of each approach for constrained joke generation in English, Spanish, and Chinese",
+   "Report evidence on quality, constraint satisfaction, cost, and cross-language differences"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q155",
+  "original": [
+   "Identify whether a flow matching method learns barycenters for all weight vectors jointly.",
+   "Explain how a single model handles arbitrary weights without retraining per weight vector.",
+   "Name the relevant literature or state if no such method is established."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q156",
+  "original": [
+   "Define the dataset's structure: meme, Chinese interpretations, American predictions of misreadings",
+   "Explain how to measure model alignment with each group's readings for evaluation",
+   "Describe using these pairings as training signals to fine-tune cross-cultural meme understanding"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q158",
+  "original": [
+   "Answer whether multi-step diffusion weather models can be distilled into one-step versions",
+   "Explain whether one-step models still produce good ensembles, including for typhoon tracks",
+   "Name concrete techniques and their tradeoffs, such as consistency or adversarial distillation"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q159",
+  "original": [
+   "Accuracy of commercial speech APIs on Indian scheduled languages",
+   "Performance of multimodal LLMs on code-mixed, overlapping, multi-speaker speech",
+   "Joint transcription and speaker labeling (diarization) quality under overlap"
+  ],
+  "haiku_supported": [],
+  "sonnet_supported": []
+ },
+ {
+  "qid": "q161",
+  "original": [
+   "Name the computational models linking emotion to goal discrepancy and action selection",
+   "Explain the predicted lift before success and crash on failure",
+   "Cite the key theory: Carver-Scheier control theory or appraisal models"
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q163",
+  "original": [
+   "Formulate robust exponential-utility objective: maximize min over adversarial state perturbations of entropic risk of cumulative reward.",
+   "Derive a certified lower bound via robust Bellman recursion or convex relaxation, guaranteeing worst-case utility floor.",
+   "Verify the floor empirically or via certificates, and handle ambiguity in the perturbation norm budget."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q165",
+  "original": [
+   "Performance of zero-shot pretrained language models on predicting severe distribution outages within hours",
+   "Comparison against conventional supervised classifiers trained on labeled outage data",
+   "Evidence on accuracy, calibration, and reliability gaps in the zero-shot setting"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q167",
+  "original": [
+   "Name a specific AI text detector with demonstrably low false positive rates",
+   "Explain whether it can locate boundaries between human and AI-edited text",
+   "Note evidence limits, since such claims are contested and vary by test"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q168",
+  "original": [
+   "Explain the mechanism: mixture of latent rankings, each transitive, yields aggregate intransitivity",
+   "Describe fitting the mixture to repeated pairwise comparisons, and how it contrasts with single-utility-plus-noise",
+   "Show how mixture-component evidence distinguishes genuine intransitivity from noise or context effects"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q172",
+  "original": [
+   "Construct contrastive pairs where near-identical instructions differ by one constraint, with responses matching each",
+   "Ensure preference labels hinge on the specific constraint, so the model must attend to distinctions",
+   "Include shared-response negatives that violate only one instruction's constraint, forcing cross-instruction discrimination"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": []
+ },
+ {
+  "qid": "q174",
+  "original": [
+   "Value of information: estimate how each probe's result could change the stop-or-continue decision",
+   "Cost-benefit accounting: weigh probe cost against decision gain, separating training progress from information value",
+   "Restrict probes to distinctions that are decision-relevant and cannot be obtained more cheaply"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q175",
+  "original": [
+   "Choose a distribution-free method, such as conformal prediction, that yields finite-sample coverage guarantees.",
+   "Handle covariate shift from lab to field, e.g., weighted conformal prediction using density-ratio estimates or calibration on field data.",
+   "Validate coverage empirically on held-out real-world drive cycles, monitoring for drift and recalibrating as conditions change."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q181",
+  "original": [
+   "Diagnose which failure type dominates: missing computation, missing knowledge, or wrong routing.",
+   "Match data emphasis to each failure: computation tasks, knowledge coverage, or routing-contrast examples.",
+   "Track failure type over training stages and reweight data as the dominant failure shifts."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q184",
+  "original": [
+   "Choose a compact architecture operating directly on raw IQ samples, avoiding FFT preprocessing",
+   "Train on labeled drone analog/digital video emissions, with augmentation for noise and multipath",
+   "Quantize, prune, and deploy on embedded hardware meeting real-time latency and memory constraints"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q185",
+  "original": [
+   "Known lower bounds: safety constraints can force linear regret in adaptive control",
+   "Mechanism: unknown constraints prevent exploration, so learning stalls before commitment",
+   "Relevant works: safe bandits/RL impossibility results and regret lower bounds"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q186",
+  "original": [
+   "Mechanism that concentrates predictive information into leading embedding coordinates, e.g. nested or ordered dimension dropout.",
+   "Joint-embedding predictive training objective with a latent predictor and anti-collapse regularization.",
+   "Planning procedure that uses only a short prefix of the latent during rollouts and search."
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q189",
+  "original": [
+   "Identify attention heads linked to insecure code patterns via probing or activation analysis",
+   "Apply inference-time steering to suppress insecure heads while preserving functional correctness",
+   "Validate with security scanners and unit tests to confirm fewer vulnerabilities without regressions"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q195",
+  "original": [
+   "Design protocol: clients train local autoencoders and share only latent codes and cluster centroids.",
+   "Analyze communication savings and privacy against server-side reconstruction of client training data.",
+   "Specify how the server aggregates centroids to detect anomalies coordinately across clients."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q197",
+  "original": [
+   "Identify a specific paper combining masked encoder with flow matching decoder",
+   "Show the learned representation suffices for posterior of clean data given partial observation",
+   "Assess whether the paper actually establishes this sufficiency claim"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q199",
+  "original": [
+   "Persistent experience store: record failures, fixes, and preferences outside the agent's context window",
+   "Retrieval layer: surface relevant past experience at session start, independent of agent code",
+   "Pluggable storage interface: swap backends without changing how agents read or write memory"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q200",
+  "original": [
+   "Identify whether a specific paper proposes a third healthcare IT layer beyond records and clinical state",
+   "Confirm the proposed layer is based on making patient clinical intent computable",
+   "Name or describe the paper if one exists, or state none is known"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q201",
+  "original": [
+   "Whether per-token validation loss gaps between models stay stable across token positions",
+   "Whether that stability persists or breaks when the training data stream changes"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q203",
+  "original": [
+   "Identify a specific paper on mechanistic interpretability of language models",
+   "Show evidence of middle-layer checking of an if-condition",
+   "Show the answer-selection component is token-specific, not general routing"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q205",
+  "original": [
+   "Convert sparse item-level feedback into per-token signals via credit assignment across the hierarchical coarse-to-fine token sequence",
+   "Differentiate credit by token level and position, not broadcasting one reward identically to every token",
+   "Use per-token value estimates or advantages, such as critics or conditional likelihood decomposition, to localize reward"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q206",
+  "original": [
+   "Whether separate field scoring improves retrieval precision over a single concatenated document",
+   "How scoring name, description, and body separately affects ranking of the right skill",
+   "Tradeoffs and conditions under which field-level scoring helps in a large skill library"
+  ],
+  "haiku_supported": [
+   1,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q207",
+  "original": [
+   "Intervene on the recurrent hidden state: pin, freeze, or transplant it across episodes or tasks",
+   "Hold learned meta-parameters fixed and compare performance against an unperturbed baseline",
+   "Measure the causal effect on learning, using matched seeds, controls, and statistical tests"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q208",
+  "original": [
+   "Test whether updated clinical knowledge generalizes beyond recall: rephrasing, relational changes, multi-step reasoning, open-ended use",
+   "Verify that unrelated knowledge is preserved, i.e., no catastrophic forgetting or collateral damage",
+   "Define metrics, controls, and baselines comparing pre- and post-update performance across both sets"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q209",
+  "original": [
+   "Explain why benchmark scores fail to capture bank-specific risks like accuracy on proprietary data, robustness, and regulatory compliance.",
+   "Describe what validation should cover: task-specific evaluation, adversarial and failure testing, monitoring, governance, and auditability.",
+   "State that approval should rest on documented risk assessment tied to the actual use case and its consequences."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q212",
+  "original": [
+   "Is there a fast, CPU-only method for estimating per-claim error likelihood?",
+   "Can it combine token probabilities, Wikipedia word statistics, and kernel-based entropy?",
+   "What are its practical limits and how reliable are the estimates?"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q213",
+  "original": [
+   "Whether a French accident-report classifier transfers to other industries and a different company's records",
+   "Comparison of lexical, frozen-embedding, and fine-tuned language models on that transfer",
+   "Performance measured separately for each label: work situation, adverse condition, deviation event, consequence"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q214",
+  "original": [
+   "Avoid averaging LoRA factors A and B separately, since mean(A)·mean(B) ≠ mean(BA)",
+   "Aggregate the full product ΔW=BA, then re-factor via SVD to avoid client re-initialization mismatch",
+   "Handle heterogeneous ranks by padding, truncating, or stacking adapters into a shared representation"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q215",
+  "original": [
+   "Identify the phenomenon: model collapse from recursive training on self-generated data plus feedback",
+   "Explain whether Fisher information rescaling of updates is a proposed fix",
+   "Give the specifics: mechanism, evidence, and limitations or open questions"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q216",
+  "original": [
+   "Define event capture: detect behaviors, contexts, and interventions from wearable and self-report streams",
+   "Model continuous whole-body physiological response conditioned on each event, with uncertainty and personalization",
+   "Validate causal interpretation and deployment across real-world confounders, sensor drift, and missing data"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": []
+ },
+ {
+  "qid": "q217",
+  "original": [
+   "Explain why repeated lossy summarization drops constraints, blocked actions, and explored paths",
+   "Explain why summary-based memory produces inconsistent behavior across runs",
+   "Describe judging and improving each summary step without fine-tuning, e.g. checklists, evals, pinned state"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q218",
+  "original": [
+   "Who participates: queer community members as decision-makers, annotators, and paid collaborators, not just data subjects",
+   "How they participate: co-designing collection protocols, consent terms, labeling schemes, and evaluation criteria",
+   "Who benefits and controls: community ownership, governance, compensation, and rights to withdraw or direct use"
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q223",
+  "original": [
+   "Do independently prompted frontier models converge on the same architecture components under a child-friendly school framing?",
+   "Does removing the child-friendly audience framing change how much those designs converge?",
+   "Would the convergence be evidence of shared training or shared reasoning, and how would it be measured?"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q228",
+  "original": [
+   "Parse the funder's rubric into discrete, scored criteria with defined evidence requirements",
+   "Map each application passage to criteria, with citations, confidence, and gaps for reviewer audit",
+   "Capture reviewer corrections as structured feedback that refines future assessments and records decisions"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q229",
+  "original": [
+   "Explain why supervised fine-tuning on demonstrations causes mode collapse onto few actions",
+   "Explain why equally optimal moves are not preserved: likelihood training and labels",
+   "Propose methods preserving diverse acceptable moves while keeping correctness, e.g. soft targets, RL"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q232",
+  "original": [
+   "Startup latency differences across containers, hosted sandboxes, Kubernetes clusters, and VMs",
+   "Total compute cost differences across those backends at RL training scale",
+   "Tradeoffs in isolation, reproducibility, and throughput that drive the backend choice"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q233",
+  "original": [
+   "Identify the paper or research area on neural networks modeling higher-order, non-pairwise interactions",
+   "Explain the hypergraph-based MLP formulation that extends pairwise connections to hyperedges",
+   "Provide authors, venue, and year so the paper can be located"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q235",
+  "original": [
+   "Use logged operational event data to model outcomes and assess evidence quality, including completeness and staleness",
+   "Apply privacy limits, organizational authority, and downstream risk to choose: take, postpone, query, or decline",
+   "Set decision thresholds and escalation rules that map evidence and risk levels to each action"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q236",
+  "original": [
+   "Name a method that shortlists rare biasing words using phoneme posteriors",
+   "Explain how the shortlisted words correct the transcript afterward in speech LLMs",
+   "Confirm such methods exist in the speech recognition literature"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q240",
+  "original": [
+   "Define validity criteria: rollouts must be realistic, reactive, and reproducible under closed-loop control.",
+   "Quantify coverage and statistical confidence of safety-relevant scenarios, not raw failure counts.",
+   "Validate simulator fidelity against real-world logs, showing that sim-based conclusions transfer to road performance."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q241",
+  "original": [
+   "Source of training signal: human post-edits of older MT outputs, converted into preference pairs",
+   "Optimization method: preference optimization (e.g., DPO) on the newer model, with regularization",
+   "Safeguards against quality regression: KL constraints, held-out evaluation, and mixing in original data"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q244",
+  "original": [
+   "Detect rare catastrophic cost tails with nonparametric estimators, such as empirical quantiles or CVaR over episodes.",
+   "Use tail-risk signals to gate between reward-seeking updates and safety-recovery policy updates.",
+   "Do this without fitting a parametric tail model, e.g., via order statistics, bootstrap, or conformal bounds."
+  ],
+  "haiku_supported": [],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q246",
+  "original": [
+   "Excess error of averaging projected least-squares estimators from data blocks versus full-data projection",
+   "Effect of heterogeneous covariance matrices across blocks on the averaged estimator's excess error",
+   "Tradeoff between communication/compute savings and error inflation under block-level sketching and averaging"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q247",
+  "original": [
+   "Profile causal 3D conv temporal-cache kernels on Jetson to find real bottlenecks",
+   "Apply inference-only optimizations: TensorRT/FP16 engines, kernel fusion, cache layout tuning, no weight changes",
+   "Verify speedups keep output identical to baseline, within numerical tolerance"
+  ],
+  "haiku_supported": [
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q250",
+  "original": [
+   "Choose a fine-tuning objective that avoids simulating sampling trajectories during training.",
+   "Preserve reward-aligned quality at few inference steps without KL tilting or distillation.",
+   "Specify the reward optimization method, such as direct reward gradients or reward-weighted regression."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q251",
+  "original": [
+   "Name any existing plug-and-play framework for evaluating mindfulness or compassion prompting",
+   "State whether such a framework tests alignment in mental health settings specifically",
+   "Note limitations, or whether a custom evaluation would be needed instead"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q253",
+  "original": [
+   "Design a multi-judge ensemble of cheaper open-weight models with calibrated aggregation.",
+   "Define a flaw taxonomy and severity rubric, then validate against human-labeled traces.",
+   "Chunk long traces into steps and check each step, weighting verdicts by judge reliability."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1
+  ]
+ },
+ {
+  "qid": "q254",
+  "original": [
+   "Explain how known process stage ordering constrains the causal graph's allowed edges",
+   "Show the speedup and sensibility gains from pruning impossible directed edges",
+   "Describe practical implementation, such as tiered or order-restricted constraint-based or score-based search"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q255",
+  "original": [
+   "Define retrieval tasks and benchmarks using NASA division code repositories and snippets",
+   "Specify metrics, ground-truth construction, and evaluation methodology for domain-specific code retrieval"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1
+  ]
+ },
+ {
+  "qid": "q256",
+  "original": [
+   "Handle selective labels: outcomes only observed for past-treated people, requiring counterfactual or bounds-based correction",
+   "Address unobserved confounders driving past allocation, via sensitivity analysis, proxy variables, or fairness-aware reweighting",
+   "Validate that scores don't under-rank previously prioritized groups, using audits, calibration checks, and held-out randomized data"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q261",
+  "original": [
+   "Compare regex, zero-shot embedding, and LLM matchers on relevance from noisy call-center ASR transcripts",
+   "Assess whether topic descriptions as keyphrases versus natural language change accuracy",
+   "Identify which conditions favor each method and what evidence supports those conclusions"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q265",
+  "original": [
+   "Decode the cell's meaning from its row, column, and surrounding context",
+   "Generate candidate taxonomy concepts and verify each against the decoded meaning",
+   "Use hierarchy and synonyms to search where raw input fails"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q266",
+  "original": [
+   "Name a metric that extracts subject-verb-object triples from summaries",
+   "Explain it compares those triples against the source document",
+   "Confirm such a metric exists for relation hallucination detection"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q272",
+  "original": [
+   "Identify whether a VAE combined with extreme value theory and generalized Pareto tail modeling exists",
+   "Assess its use for predicting low-SNR outage regions in radio maps",
+   "Note any gaps where such a specific approach may not yet be published"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q273",
+  "original": [
+   "Design a contrastive benchmark: paired near-identical obstetric and pediatric vignettes with differing correct treatments, validated by clinicians",
+   "Measure model failures on minimally edited pairs, comparing accuracy against a baseline without retrieval",
+   "Test whether retrieval with contrastive sub-queries and evidence-coverage auditing reduces those failures, via ablations"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q276",
+  "original": [
+   "Whether neural language encoders capture the linguistic features classic feature-based difficulty classifiers use",
+   "Evidence from concept-based probing measures of feature overlap across several languages",
+   "Comparison of encoder representations versus classic features for predicting text difficulty levels"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q277",
+  "original": [
+   "Explain whether attention patterns in a single forward pass can reveal fabrication",
+   "Describe concrete attention-based signals and how to measure them",
+   "State limitations and why single-pass detection is unreliable or unproven"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q278",
+  "original": [
+   "Identify whether a specific paper matches this agent-memory design",
+   "Explain persistent Python kernel memory searched via generated code",
+   "Contrast it with compressing history into the prompt"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q279",
+  "original": [
+   "Construct pseudo-labels: TF-IDF item-similarity neighbours of products serve as weak multi-label targets",
+   "Fine-tune a pretrained transformer encoder with a multi-label head over a large product-label space",
+   "Handle conversational queries at scale using sigmoid/BCE loss, negative sampling, and evaluation"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q281",
+  "original": [
+   "Yes: unsupervised learning of edge marginals over 1-trees",
+   "Model must output calibrated edge probabilities without supervised tour labels",
+   "Structure must enforce connectivity, degree constraints, and tour-like feasibility"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q282",
+  "original": [
+   "Categorize shell-command LLM agents by architecture: planning loop, tool interface, memory, and feedback handling.",
+   "Profile competence along training data sources and benchmark dimensions such as task success, safety, and efficiency.",
+   "Map each agent type to its architecture, training data, and benchmark results for comparison."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "qid": "q285",
+  "original": [
+   "Represent clinical notes as a semantic graph of entities, events, and relations.",
+   "Align discharge summary statements to graph nodes, linking each sentence to its source evidence.",
+   "Constrain generation to verified graph content so unsupported claims are rejected."
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q286",
+  "original": [
+   "Define the system architecture: structured patient evidence, TCM pattern-diagnosis logic, and herb-dose knowledge base",
+   "Require each recommendation to cite the specific patient findings and rules that produced it",
+   "Make decisions auditable and verifiable by clinicians through traceable, deterministic reasoning steps"
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   3
+  ]
+ },
+ {
+  "qid": "q287",
+  "original": [
+   "Identify whether a specific paper argues clinical AI needs governed patient state beyond LLM context windows",
+   "Name any maturity-level framework proposed for auditing such clinical AI systems",
+   "Acknowledge uncertainty about exact sources, since I cannot verify specific publications"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q289",
+  "original": [
+   "Why text-trained systems fail at high-stakes numerical decisions: no grounded quantities, miscalibrated probabilities, unreliable arithmetic, and fluent but unverified outputs.",
+   "Properties needed for reliability: calibrated uncertainty, verifiable grounded data, exact computation via tools, and auditable, testable decision processes.",
+   "Accountability requirements: validated against real outcomes, monitored for drift, with human oversight and clear responsibility for errors."
+  ],
+  "haiku_supported": [
+   1
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q292",
+  "original": [
+   "Mechanism: computational models of cross-linguistic comprehension via shared representations, lexical overlap, and transfer learning",
+   "Evaluation: how closely model predictions match the actual range of human translations and intelligibility judgments",
+   "Limits: where such accounts fail, including dialectal variation, idiom, and speaker-specific interpretation differences"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1,
+   2
+  ]
+ },
+ {
+  "qid": "q294",
+  "original": [
+   "Define persona-tailoring criteria and build a labeled dataset of persona-specified video briefs.",
+   "Run LLM screening, crowd pairwise voting, and expert review, then aggregate scores into a benchmark metric.",
+   "Validate the pipeline: check rater reliability, LLM-human agreement, and that the metric discriminates tailored from generic videos."
+  ],
+  "haiku_supported": [
+   2
+  ],
+  "sonnet_supported": [
+   2
+  ]
+ },
+ {
+  "qid": "q295",
+  "original": [
+   "Explain why domain-specific training can degrade technical vocabulary handling relative to the base model",
+   "Describe internal mechanisms such as catastrophic forgetting, representation drift, and tokenization effects",
+   "Note that specialization can narrow coverage of general and cross-domain terminology"
+  ],
+  "haiku_supported": [
+   1,
+   2
+  ],
+  "sonnet_supported": [
+   1
+  ]
+ },
+ {
+  "qid": "q297",
+  "original": [
+   "Define phase-structure features from attention and how they are derived",
+   "Specify combined baseline features and forecasting targets: contradiction outcomes or answer changes",
+   "Assess predictive gain under repeated pressure prompts, beyond the combined baseline"
+  ],
+  "haiku_supported": [
+   1,
+   2,
+   3
+  ],
+  "sonnet_supported": [
+   2,
+   3
+  ]
+ }
+]

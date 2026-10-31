@@ -1,0 +1,6 @@
+{
+ "selection_model": "sentence-transformers/all-MiniLM-L6-v2",
+ "selection_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+ "manifest_gold.jsonl": "7c7db309abadd7f59913239f3516da8d50d4a61dbb99be48e7d5dd140845771e",
+ "manifest_question.jsonl": "fe3a3cf32c3c1608d5d8867e0fb84eefcaba71d804294a75796d6fb88797c11b"
+}

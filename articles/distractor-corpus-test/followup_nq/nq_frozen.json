@@ -1,0 +1,20 @@
+{
+  "dataset": "BEIR Natural Questions test",
+  "archive_md5": "d4d3d2e48787a744b6f6e691ff534307",
+  "archive_bytes": 498307926,
+  "corpus_rows": 2681468,
+  "query_rows": 3452,
+  "positive_qrel_rows": 4201,
+  "queries_with_positive_qrels": 3452,
+  "unique_positive_document_ids": 4201,
+  "missing_positive_document_ids": 0,
+  "pilot_seed": 20261029,
+  "pilot_query_count": 40,
+  "confirmatory_query_count": 3412,
+  "sha256": {
+    "archive": "2553bf7bfbab47b1436ca00a34bce57320e18e611fd00999a2a3a1b4714be752",
+    "corpus": "f7e3588dd416772c9830baf67e827d49678f8d5a6ccf6e101b9ce990cc7b208c",
+    "queries": "72f08f0cd333a47e393dac61cf1e56d4fb41eabf1d6ad5ca99f40250b0b491c8",
+    "qrels": "6df0cd2cbbe88504b64c68f21e946a759b62c4d864225720cec256f0196e2210"
+  }
+}

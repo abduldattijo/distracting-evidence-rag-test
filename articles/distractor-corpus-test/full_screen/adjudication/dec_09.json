@@ -1,0 +1,14 @@
+{
+"q172": {"1": ["reword", "Build preference pairs by perturbing an instruction's constraints so near-identical instructions differ"],
+         "2": ["reword", "Verify each response against the individual constraints so the labels reflect them"],
+         "3": ["drop", "shared-response negatives invented"]},
+"q174": {"3": ["reword", "Reveal only the distinctions that could change the stop or continue decision"]},
+"q175": {"3": ["drop", "empirical validation and recalibration invented"]},
+"q181": {"3": ["reword", "Change what the data teaches as the limiting failure shifts across stages of training"]},
+"q184": {"2": ["drop", "training data and augmentation details invented"], "3": ["reword", "Run in real time on embedded hardware"]},
+"q185": {"3": ["drop", "naming related works not asked"]},
+"q186": {"3": ["reword", "Plan using only a short prefix of the latent"]},
+"q189": {"3": ["drop", "validation with scanners invented"]},
+"q195": {"3": ["drop", "anomaly detection aggregation invented"]},
+"q197": {"3": ["drop", "meta instruction to assess the paper"]}
+}

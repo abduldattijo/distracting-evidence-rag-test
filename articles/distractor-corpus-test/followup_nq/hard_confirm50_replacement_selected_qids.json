@@ -1,0 +1,16 @@
+{
+  "from_replacement50_gold_valid_16": "first 11 by ascending SHA-256 of 20261107 concatenated with qid",
+  "selected_qids": [
+    "test276",
+    "test1758",
+    "test440",
+    "test1315",
+    "test2398",
+    "test2649",
+    "test1626",
+    "test1141",
+    "test2626",
+    "test831",
+    "test1838"
+  ]
+}

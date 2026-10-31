@@ -1,0 +1,40 @@
+{
+ "q000": [
+  "Define hinted training: prepend partial solution prefixes or privileged hints, sampling completions that reach correct answers",
+  "Keep the reward and policy gradient on the unhinted prompt, so the hint only aids exploration"
+ ],
+ "q002": [
+  "Identify the paper scoring clusterings against known classes using two measures",
+  "Explain the two measures: cluster purity and avoiding over-splitting of classes",
+  "Connect the paper's measures to ROC curves"
+ ],
+ "q003": [
+  "False alarms accumulate across repeated checks on many features",
+  "Effect of batch size on detector sensitivity, variance, and spurious alert frequency",
+  "Impact of multiple-testing correction such as Bonferroni or FDR control on alert rates"
+ ],
+ "q004": [
+  "Methods to make LLM-based simulated users reproduce one person's reactions, including on uncovered topics",
+  "Whether instructing quick gut reaction versus careful reasoning changes simulation accuracy"
+ ],
+ "q005": [
+  "Speedup depends on fewer distinct experts per batch, which lowers memory traffic and improves throughput"
+ ],
+ "q006": [
+  "Specify the combinations of evolutionary and RL update and inheritance schemes",
+  "Specify the neural architectures paired with those update schemes",
+  "Explain how frozen elite controllers compete in the GPU-simulated spatial ecology"
+ ],
+ "q007": [
+  "Define a generative model of future poses conditioned on each fly's own sensory viewpoint",
+  "Learn it from multi-animal tracking data, with each fly acting independently on its egocentric observations so group behavior emerges"
+ ],
+ "q008": [
+  "Identify the specific multi-agent LLM system that writes optimized GPU kernels",
+  "State its ranking on the SOL-ExecBench leaderboard for H100 and B200"
+ ],
+ "q009": [
+  "Sample source prefixes without replacement, weighting each draw to correct for inclusion probabilities, yielding an unbiased estimator.",
+  "Define the target-prefix probability as a sum over source strings mapped by the FST."
+ ]
+}

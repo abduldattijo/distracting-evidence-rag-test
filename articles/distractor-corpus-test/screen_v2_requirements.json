@@ -1,0 +1,45 @@
+{
+ "requirements": {
+  "q000": [
+   "Explain the mechanism: prepend a privileged hint, such as a partial solution prefix, to the prompt during rollouts so the model samples correct trajectories it would never reach unaided",
+   "Address the off-policy problem: the hinted rollouts come from a different distribution than the unhinted prompt, so the gradient must be corrected (e.g., importance weighting, loss masking of the hint tokens, or a KL/distillation term) so that optimization still targets the original objective",
+   "Describe the training schedule and fading strategy: gradually shorten or remove the hint over training so the policy learns to succeed on the unhinted prompt, and verify final performance is measured only on unhinted prompts",
+   "Mention practical safeguards: mask or exclude hint tokens from the loss, track whether hinted successes transfer to unhinted evaluation, and watch for reward hacking or reliance on the hint"
+  ],
+  "q002": [
+   "Name the paper and authors that score clusterings against known classes with two separate measures: one for cluster purity and one for avoiding over-splitting (e.g., homogeneity/completeness, or precision/recall-style pair-counting metrics)",
+   "Explain how this two-measure scoring is linked to ROC curves (e.g., the ROC/AUC framing of pairwise or class-level discrimination, or the trade-off between the two measures analogous to true-positive versus false-positive rates)",
+   "Clarify the two measures themselves: what each one captures about purity and over-splitting, and how they are defined or computed"
+  ],
+  "q004": [
+   "Methods for conditioning the language model on an individual's data (profile, post history, prior reactions) so it reproduces their reaction patterns",
+   "How the model generalizes those patterns to topics absent from the person's profile, e.g. via persona abstraction, trait-level modeling, or retrieval of analogous past behavior",
+   "Evaluation of accuracy against the person's real reactions, including held-out and out-of-domain topics",
+   "Whether instructing the model to give a quick gut reaction versus careful reasoning changes fidelity to the person, and why"
+  ],
+  "q005": [
+   "Clarify the premise: fewer distinct experts loaded per step is a memory-bandwidth argument, and it applies to MoE inference generally, not specifically to speculative decoding.",
+   "Explain why speculative decoding depends on expert co-activation: verifying k draft tokens in one forward pass makes the union of experts activated across those tokens the cost driver, so correlated routing shrinks that union and reduces weight reads.",
+   "Explain the mechanism that makes this a speedup: decoding is memory-bound, so loading fewer expert weights per verification pass lowers latency, and the gain depends on how much the draft tokens' routing overlaps.",
+   "Note the caveats: co-activation training can hurt model quality or load balance, the benefit depends on draft length and acceptance rate, and the effect is empirical and workload-dependent rather than guaranteed."
+  ],
+  "q006": [
+   "Define the factors being crossed: the weight update rules (evolutionary vs. reinforcement learning) and the inheritance schemes (e.g., Lamarckian vs. Baldwinian, or how weights pass to offspring), plus the network architectures used.",
+   "Describe the protocol: train controllers in separate runs per combination, freeze and save the elite controllers, then pit them against each other in the same GPU-simulated spatial multi-cell ecology under matched conditions.",
+   "Specify the comparison metrics and controls: survival, territory or population share, fitness, and robustness across random seeds and environments, with statistical tests and controls for compute budget and training length.",
+   "Report the results per combination, identify which pairings of update rule, inheritance scheme, and architecture win or lose and why, and note limitations such as environment dependence and the gap between training and frozen-competition performance."
+  ],
+  "q008": [
+   "What the system is: a multi-agent LLM pipeline that generates and iteratively optimizes GPU kernels (e.g., CUDA/Triton) for target hardware.",
+   "Its performance: how it ranks on the SOL-ExecBench leaderboard specifically on H100 and B200 GPUs, with the metrics and results that support that claim.",
+   "How it works: the agent roles, the generate-compile-benchmark-refine loop, and any verification or correctness checks used.",
+   "Where to verify: the official project, paper, or leaderboard entry, since I can't confirm current rankings from memory and they change over time."
+  ]
+ },
+ "unscreened": {
+  "q001": "no requirements returned (see screen_v2_raw.jsonl stop reason)",
+  "q003": "no requirements returned (see screen_v2_raw.jsonl stop reason)",
+  "q007": "no requirements returned (see screen_v2_raw.jsonl stop reason)",
+  "q009": "no requirements returned (see screen_v2_raw.jsonl stop reason)"
+ }
+}

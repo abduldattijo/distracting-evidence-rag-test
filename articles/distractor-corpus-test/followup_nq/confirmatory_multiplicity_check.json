@@ -1,0 +1,45 @@
+{
+  "comparisons": 4,
+  "familywise_alpha": 0.05,
+  "method": "Bonferroni-adjusted percentile paired question bootstrap intervals; 98.75% marginal intervals",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261030,
+  "results": {
+    "100000": {
+      "difference": -0.11127393513091052,
+      "bonferroni_95_simultaneous_ci": [
+        -0.12392597205939822,
+        -0.09871959261430242
+      ],
+      "drop_points": 11.127393513091052,
+      "upper_below_zero": true
+    },
+    "500000": {
+      "difference": -0.2200078155529504,
+      "bonferroni_95_simultaneous_ci": [
+        -0.23744687866354044,
+        -0.20276414126611955
+      ],
+      "drop_points": 22.000781555295042,
+      "upper_below_zero": true
+    },
+    "1000000": {
+      "difference": -0.2869284876905041,
+      "bonferroni_95_simultaneous_ci": [
+        -0.3062719812426729,
+        -0.2685124804611176
+      ],
+      "drop_points": 28.69284876905041,
+      "upper_below_zero": true
+    },
+    "2681468": {
+      "difference": -0.4015240328253224,
+      "bonferroni_95_simultaneous_ci": [
+        -0.4223329425556858,
+        -0.3806174286830793
+      ],
+      "drop_points": 40.15240328253224,
+      "upper_below_zero": true
+    }
+  }
+}

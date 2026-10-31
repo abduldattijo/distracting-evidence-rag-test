@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="370" viewBox="0 0 980 370">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.small{font-size:13px}.label{font-size:15px}.title{font-size:19px;font-weight:bold}.grid{stroke:#ddd;stroke-width:1}.zero{stroke:#555;stroke-width:1.5;stroke-dasharray:5 4}.ci{stroke:#356b8c;stroke-width:4}.dot{fill:#b24a3a}</style>
+<text x="40" y="30" class="title">Generator effect of hard retrieval contexts</text>
+<text x="40" y="52" class="small">Hard minus ordinary; 70 questions; paired question-bootstrap 95% intervals</text>
+<line x1="390.0" y1="76" x2="390.0" y2="310" class="grid"/>
+<text x="390.0" y="332" class="small" text-anchor="middle">-25</text>
+<line x1="478.3" y1="76" x2="478.3" y2="310" class="grid"/>
+<text x="478.3" y="332" class="small" text-anchor="middle">-20</text>
+<line x1="566.7" y1="76" x2="566.7" y2="310" class="grid"/>
+<text x="566.7" y="332" class="small" text-anchor="middle">-15</text>
+<line x1="655.0" y1="76" x2="655.0" y2="310" class="grid"/>
+<text x="655.0" y="332" class="small" text-anchor="middle">-10</text>
+<line x1="743.3" y1="76" x2="743.3" y2="310" class="grid"/>
+<text x="743.3" y="332" class="small" text-anchor="middle">-5</text>
+<line x1="831.7" y1="76" x2="831.7" y2="310" class="zero"/>
+<text x="831.7" y="332" class="small" text-anchor="middle">0</text>
+<line x1="920.0" y1="76" x2="920.0" y2="310" class="grid"/>
+<text x="920.0" y="332" class="small" text-anchor="middle">5</text>
+<text x="40" y="110" class="label">Retrieved top 10 — exact match</text>
+<line x1="478.3" y1="105" x2="756.0" y2="105" class="ci"/>
+<circle cx="621.3" cy="105" r="6" class="dot"/>
+<text x="40" y="168" class="label">Retrieved top 10 — token F1</text>
+<line x1="471.8" y1="163" x2="749.1" y2="163" class="ci"/>
+<circle cx="615.4" cy="163" r="6" class="dot"/>
+<text x="40" y="226" class="label">Answer passage first — exact match</text>
+<line x1="756.0" y1="221" x2="890.6" y2="221" class="ci"/>
+<circle cx="823.3" cy="221" r="6" class="dot"/>
+<text x="40" y="284" class="label">Answer passage first — token F1</text>
+<line x1="787.2" y1="279" x2="899.7" y2="279" class="ci"/>
+<circle cx="834.9" cy="279" r="6" class="dot"/>
+<text x="655" y="356" class="small" text-anchor="middle">Percentage points</text></svg>

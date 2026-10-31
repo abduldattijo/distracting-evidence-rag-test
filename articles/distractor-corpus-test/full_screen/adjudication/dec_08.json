@@ -1,0 +1,13 @@
+{
+"q153": {"3": ["drop", "cost and constraint satisfaction invented; repeats requirement 2"]},
+"q155": {"3": ["drop", "naming literature not asked"]},
+"q156": {"2": ["reword", "Evaluate how well language models match the Chinese readers' interpretations and the American predictions"]},
+"q158": {"3": ["drop", "naming techniques and trade-offs not asked"]},
+"q159": {"1": ["keep", ""], "2": ["keep", ""], "3": ["keep", ""],
+         "gold_gap": "abstract says commercial speech APIs and multimodal models were evaluated but reports no results, so it cannot answer how well they perform"},
+"q161": {"1": ["reword", "Identify a computational model in which emotions emerge from goal discrepancy and action selection"], "3": ["drop", "citing a theory not asked"]},
+"q163": {"3": ["drop", "empirical verification and norm ambiguity invented"]},
+"q165": {"3": ["drop", "calibration and reliability gaps invented"]},
+"q167": {"3": ["drop", "caveat note is not an answer requirement"]},
+"q168": {"3": ["drop", "separating intransitivity from noise or context effects not asked"]}
+}

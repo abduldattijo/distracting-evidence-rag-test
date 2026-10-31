@@ -1,0 +1,12 @@
+{
+"q080": {"3": ["drop", "naming works or hedging not asked"]},
+"q084": {"1": ["reword", "Judge the quality of incoming test data without using source data or statistics"], "3": ["drop", "safeguards invented"]},
+"q085": {"2": ["reword", "Calibrate the model on the target graph without labeled target data"], "3": ["drop", "repeats requirement 1"]},
+"q086": {"3": ["drop", "conditions and uncertainty not asked"]},
+"q090": {"3": ["drop", "repeats requirement 1"]},
+"q091": {"3": ["drop", "admission control and output length prediction invented"]},
+"q092": {"3": ["reword", "Offer an interpretable rule based form derived from the Bernstein activations"]},
+"q093": {"1": ["drop", "diarization, face tracking and lip sync pipeline invented"], "3": ["reword", "Handle very short utterances where voice based identification is unreliable"]},
+"q094": {"2": ["reword", "Keep the model from learning to evade the probes"], "note": "original wording (held out detectors) is the opposite of the paper, which finds fixed probes exploitable and continuously updated probes work"},
+"q095": {"3": ["drop", "repeats requirement 1"]}
+}

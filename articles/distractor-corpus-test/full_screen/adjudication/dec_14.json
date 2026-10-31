@@ -1,0 +1,12 @@
+{
+"q277": {"3": ["drop", "limitations not asked"]},
+"q278": {"1": ["reword", "Identify a paper where the agent keeps its history in a persistent Python kernel and searches it with code"]},
+"q279": {"3": ["drop", "loss function and negative sampling details invented"]},
+"q281": {"2": ["reword", "Learn edge marginals without supervised tour labels"]},
+"q282": {"3": ["drop", "repeats requirements 1 and 2"]},
+"q285": {"1": ["reword", "Represent the clinical notes as semantic graphs"], "3": ["drop", "repeats requirement 2"]},
+"q286": {"2": ["reword", "Let a clinician trace each herb and dose recommendation back to explicit patient specific evidence"], "3": ["drop", "deterministic reasoning steps invented; repeats requirement 2"]},
+"q287": {"3": ["drop", "meta instruction about uncertainty"]},
+"q289": {"2": ["reword", "State the properties a model needs to handle high stakes numerical decisions reliably"], "3": ["drop", "accountability requirements invented"]},
+"q292": {"3": ["drop", "limits not asked"]}
+}

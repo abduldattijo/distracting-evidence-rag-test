@@ -1,0 +1,15 @@
+{
+"q033": {"1": ["drop", "realism and diversity not asked"], "3": ["drop", "repeats requirement 2"],
+         "note": "abstract trains on synthetic speech but reports no human-recorded baseline, so requirement 2 is only partly supported (gold coverage caveat)"},
+"q034": {"2": ["drop", "second-source cross-checks invented; question asks to notice and recover"],
+         "3": ["reword", "Help the agent recover once a plausible but wrong result is noticed"]},
+"q036": {"3": ["drop", "validation of generated code not asked"]},
+"q037": {"2": ["reword", "Avoid hand-coding and validating every calculator individually"],
+         "3": ["drop", "safeguards and clinician review invented"]},
+"q039": {"1": ["keep", ""], "3": ["drop", "repeats requirements 1 and 2"]},
+"q040": {"3": ["drop", "caveat note is not an answer requirement"]},
+"q041": {"2": ["drop", "explaining Croston methods not asked"]},
+"q042": {"3": ["drop", "repeats requirements 1 and 2"]},
+"q044": {"3": ["drop", "limitations survey not asked"]},
+"q045": {"3": ["drop", "meta instruction about honesty is not content"]}
+}

@@ -1,0 +1,281 @@
+qid,question,mode,condition,em_mean_3_draws,token_f1_mean_3_draws,qrel_top10_rate,answer_refs
+test1023,what type of planet is neptune known as,end_to_end,ordinary,0.0,0.6666666666666666,1.0,giant | ice giants
+test1029,where did the name huey helicopter come from,end_to_end,ordinary,0.0,0.0,1.0,originally designated HU - 1
+test1065,what is the female lion called in lion king,end_to_end,ordinary,1.0,1.0,1.0,Nala
+test1101,where did the idea of a unicorn come from,end_to_end,ordinary,0.0,0.06060606060606061,1.0,Greek writers of natural history
+test1141,when was the last time ny rangers won stanley cup,end_to_end,ordinary,0.0,0.0,1.0,1993 -- 94
+test1170,when was the last time the ducks won the stanley cup,end_to_end,ordinary,0.0,0.0,1.0,( 2006 -- 07 ) | 2006 -- 07
+test1263,who was the aztec ruler when the spanish arrived,end_to_end,ordinary,1.0,1.0,1.0,Moctezuma II | emperor Cuauhtemoc
+test1303,who discovered that plants were made of cells,end_to_end,ordinary,0.0,0.0,0.6666666666666666,Parashara
+test1315,where does sound travel fastest solid liquid or gas,end_to_end,ordinary,0.0,0.0,1.0,solids
+test1376,who were the first kings to issue coins bearing their names,end_to_end,ordinary,0.0,0.0,1.0,the Indo - Greek kings
+test1388,what was the population of the roman empire at its height,end_to_end,ordinary,1.0,1.0,1.0,70 million | an estimated 70 million people | 50 to 90 million inhabitants | 55 -- 60 million
+test144,who was the original host of what's my line,end_to_end,ordinary,1.0,1.0,1.0,John Daly
+test1452,when was the last time anyone was on the moon,end_to_end,ordinary,0.0,0.8571428571428571,1.0,December 1972 | 14 December 1972 UTC
+test1489,when is the last time the philadelphia won the superbowl,end_to_end,ordinary,1.0,1.0,1.0,"Super Bowl LII , | 2017"
+test1515,in which sea pearl is found in india,end_to_end,ordinary,0.0,0.0,1.0,the Indian Ocean
+test1626,when was the minimum wage established in the united states,end_to_end,ordinary,1.0,1.0,1.0,1933 | 1912 | 1938
+test1662,when did the 5 day work week begin,end_to_end,ordinary,0.0,0.0,0.0,1908 | In 1908 | 1940
+test1686,who has hosted the most fifa world cups,end_to_end,ordinary,1.0,1.0,1.0,Mexico | France | Germany | Italy | Brazil
+test17,when did the us take over wake island,end_to_end,ordinary,1.0,1.0,1.0,"January 17 , 1899 | July 4 , 1898"
+test1701,who owns the dower house in the archers,end_to_end,ordinary,1.0,1.0,1.0,Caroline Sterling | Lilian Bellamy
+test179,where in the constitution is the executive branch referenced,end_to_end,ordinary,1.0,1.0,1.0,Article Two
+test1837,who is the current defence against the dark arts teacher,end_to_end,ordinary,0.0,0.0,1.0,Amycus Carrow
+test1898,what is the enrollment at university of miami,end_to_end,ordinary,1.0,1.0,1.0,"16,801 students | 16,801"
+test191,who proposed evolution in 1859 as the basis of biological development,end_to_end,ordinary,1.0,1.0,1.0,Charles Darwin | Alfred Russel Wallace
+test1911,who was the president of pakistan during 1971 war,end_to_end,ordinary,1.0,1.0,1.0,Yahya Khan | President Yahya Khan
+test1941,the chinese dragons are protectors of how many seas diggy,end_to_end,ordinary,1.0,1.0,1.0,Four Seas | Four
+test1946,who signed the largest on the declaration of independence,end_to_end,ordinary,0.0,0.13333333333333333,0.0,John Hancock
+test2049,when did teenage mutant ninja turtles come out,end_to_end,ordinary,1.0,1.0,1.0,1984
+test2051,who lived in jamestown before the arrival of the english,end_to_end,ordinary,0.0,0.0,1.0,uninhabited
+test2072,where was the tv show friday night lights filmed,end_to_end,ordinary,0.0,0.5,1.0,Pflugerville | Austin
+test2132,when did tim hortons open in the usa,end_to_end,ordinary,1.0,1.0,1.0,1981
+test228,how many games in a row have the uconn women's basketball team won,end_to_end,ordinary,1.0,1.0,1.0,111 straight wins | 90 | 111
+test2328,what is the most famous building in rennes,end_to_end,ordinary,1.0,1.0,1.0,The Parlement de Bretagne | Parlement de Bretagne
+test2407,where did the rulers of the qing dynasty originate,end_to_end,ordinary,1.0,1.0,1.0,Manchuria
+test2419,when was the first nuclear power plant opened,end_to_end,ordinary,1.0,1.0,1.0,"On June 27 , 1954 | December 2 , 1942 | June 27 , 1954 | December 20 , 1951 | the USSR"
+test243,where did the titanic sink at what ocean,end_to_end,ordinary,0.6666666666666666,0.8888888888888888,1.0,North Atlantic Ocean
+test2441,what was the ancient chinese umbrella used for,end_to_end,ordinary,1.0,1.0,1.0,a defense against rain
+test246,where does the lincoln highway begin and end,end_to_end,ordinary,0.0,0.5882352941176471,1.0,Lincoln Park in San Francisco
+test2573,the most common form of megalithic architecture in europe is,end_to_end,ordinary,1.0,1.0,1.0,the portal tomb | portal tomb
+test2649,why does cooling water run through the condenser,end_to_end,ordinary,0.0,0.8000000000000002,1.0,condense the steam
+test2682,who has the most conference championships in college basketball,end_to_end,ordinary,0.0,0.6666666666666666,1.0,Kansas
+test2701,who was the first president of the constituent assembly,end_to_end,ordinary,0.0,0.3333333333333333,1.0,Dr. Rajendra Prasad
+test2703,when did first fast and furious come out,end_to_end,ordinary,1.0,1.0,1.0,2001
+test2713,what is australia's location in the world and region,end_to_end,ordinary,1.0,1.0,1.0,Oceania
+test276,under article 1 what is the minimum age required to serve in the house of representatives,end_to_end,ordinary,1.0,1.0,0.3333333333333333,25 years old | 25
+test2861,what type of rock dominates the earth's surface,end_to_end,ordinary,1.0,1.0,1.0,sedimentary | Sedimentary | sedimentary rock
+test2886,who is the head of parliament in uk,end_to_end,ordinary,0.0,0.8000000000000002,1.0,Elizabeth II | John Bercow | The Lord Fowler
+test2958,branch of science that deals with the structure of human body parts,end_to_end,ordinary,1.0,1.0,0.0,Human anatomy | human anatomy | Anatomy
+test30,what is the meaning of the name comanche,end_to_end,ordinary,1.0,1.0,1.0,enemy
+test3016,when do dwight and angela start dating again,end_to_end,ordinary,1.0,1.0,1.0,Goodbye Toby | In `` A.A.R.M. '' | `` Goodbye Toby ''
+test3110,what is a coherent set of values and beliefs about public policy called,end_to_end,ordinary,0.0,0.0,0.0,a political ideology | political ideology | ideology
+test324,who won the battle of britain in ww2,end_to_end,ordinary,0.0,0.0,1.0,the United Kingdom | British | Britain
+test3253,what is the meaning of auv in cars,end_to_end,ordinary,0.0,0.0,0.0,action utility vehicles
+test3359,who used morse code in world war 2,end_to_end,ordinary,1.0,1.0,1.0,naval bases | warships
+test3410,where are the washington redskins based out of,end_to_end,ordinary,1.0,1.0,1.0,"the Washington metropolitan area | FedExField in Landover , Maryland"
+test3418,where does the highway of heroes start and end,end_to_end,ordinary,0.0,0.6262626262626262,1.0,Glen Miller Road in Trenton
+test3448,where does junior want to go to find hope,end_to_end,ordinary,0.0,0.0,1.0,off the rez
+test347,when did the us dollar leave the gold standard,end_to_end,ordinary,1.0,1.0,1.0,"October 1976 | August 15 , 1971 | 1934"
+test357,what episode of pll does jenna get her sight back,end_to_end,ordinary,1.0,1.0,1.0,Blood is the New Black | If These Dolls Could Talk
+test440,what is the system of government in japan,end_to_end,ordinary,1.0,1.0,1.0,constitutional monarchy
+test543,who was the german leader who signed the treaty of versailles,end_to_end,ordinary,1.0,1.0,1.0,President Friedrich Ebert | Gustav Bauer
+test56,when was the last time the military drafted,end_to_end,ordinary,0.0,0.0,0.0,December 1972 | 1972 | 1973
+test562,what is the most common cause of right ventricular heart failure,end_to_end,ordinary,0.0,0.5714285714285714,1.0,pulmonary heart disease | left - sided heart failure
+test580,when was the last time the jets won a playoff game,end_to_end,ordinary,1.0,1.0,1.0,2010
+test627,how many hoops are used in a game of croquet,end_to_end,ordinary,1.0,1.0,1.0,eight | six
+test719,what is the term of an official in the house of representatives,end_to_end,ordinary,0.0,0.0,1.0,Speaker of the House | Two years | two - year | Representatives
+test781,number of films in lord of the rings,end_to_end,ordinary,0.6666666666666666,0.6666666666666666,1.0,three
+test802,what is the white stork a symbol for in western culture,end_to_end,ordinary,0.0,0.0,1.0,bringing babies to new parents
+test831,when was the term prime minister first used,end_to_end,ordinary,1.0,1.0,1.0,1624 | 18th century
+test837,where was the summer olympics held in 2012,end_to_end,ordinary,1.0,1.0,1.0,"London | London , United Kingdom"
+test1023,what type of planet is neptune known as,end_to_end,hard,0.0,0.6666666666666666,1.0,giant | ice giants
+test1029,where did the name huey helicopter come from,end_to_end,hard,0.0,0.0,1.0,originally designated HU - 1
+test1065,what is the female lion called in lion king,end_to_end,hard,1.0,1.0,1.0,Nala
+test1101,where did the idea of a unicorn come from,end_to_end,hard,0.0,0.0,1.0,Greek writers of natural history
+test1141,when was the last time ny rangers won stanley cup,end_to_end,hard,0.0,0.0,1.0,1993 -- 94
+test1170,when was the last time the ducks won the stanley cup,end_to_end,hard,0.0,0.0,1.0,( 2006 -- 07 ) | 2006 -- 07
+test1263,who was the aztec ruler when the spanish arrived,end_to_end,hard,1.0,1.0,1.0,Moctezuma II | emperor Cuauhtemoc
+test1303,who discovered that plants were made of cells,end_to_end,hard,0.0,0.0,0.6666666666666666,Parashara
+test1315,where does sound travel fastest solid liquid or gas,end_to_end,hard,0.0,0.0,0.6666666666666666,solids
+test1376,who were the first kings to issue coins bearing their names,end_to_end,hard,0.0,0.0,1.0,the Indo - Greek kings
+test1388,what was the population of the roman empire at its height,end_to_end,hard,1.0,1.0,1.0,70 million | an estimated 70 million people | 50 to 90 million inhabitants | 55 -- 60 million
+test144,who was the original host of what's my line,end_to_end,hard,1.0,1.0,1.0,John Daly
+test1452,when was the last time anyone was on the moon,end_to_end,hard,0.0,0.8571428571428571,1.0,December 1972 | 14 December 1972 UTC
+test1489,when is the last time the philadelphia won the superbowl,end_to_end,hard,1.0,1.0,1.0,"Super Bowl LII , | 2017"
+test1515,in which sea pearl is found in india,end_to_end,hard,0.6666666666666666,0.8888888888888888,1.0,the Indian Ocean
+test1626,when was the minimum wage established in the united states,end_to_end,hard,1.0,1.0,1.0,1933 | 1912 | 1938
+test1662,when did the 5 day work week begin,end_to_end,hard,0.0,0.0,0.0,1908 | In 1908 | 1940
+test1686,who has hosted the most fifa world cups,end_to_end,hard,0.0,0.3333333333333333,1.0,Mexico | France | Germany | Italy | Brazil
+test17,when did the us take over wake island,end_to_end,hard,0.0,0.0,0.0,"January 17 , 1899 | July 4 , 1898"
+test1701,who owns the dower house in the archers,end_to_end,hard,1.0,1.0,1.0,Caroline Sterling | Lilian Bellamy
+test179,where in the constitution is the executive branch referenced,end_to_end,hard,1.0,1.0,1.0,Article Two
+test1837,who is the current defence against the dark arts teacher,end_to_end,hard,0.0,0.0,1.0,Amycus Carrow
+test1898,what is the enrollment at university of miami,end_to_end,hard,1.0,1.0,1.0,"16,801 students | 16,801"
+test191,who proposed evolution in 1859 as the basis of biological development,end_to_end,hard,1.0,1.0,1.0,Charles Darwin | Alfred Russel Wallace
+test1911,who was the president of pakistan during 1971 war,end_to_end,hard,1.0,1.0,1.0,Yahya Khan | President Yahya Khan
+test1941,the chinese dragons are protectors of how many seas diggy,end_to_end,hard,0.6666666666666666,0.6666666666666666,1.0,Four Seas | Four
+test1946,who signed the largest on the declaration of independence,end_to_end,hard,0.0,0.13333333333333333,0.0,John Hancock
+test2049,when did teenage mutant ninja turtles come out,end_to_end,hard,0.0,0.0,1.0,1984
+test2051,who lived in jamestown before the arrival of the english,end_to_end,hard,0.0,0.0,1.0,uninhabited
+test2072,where was the tv show friday night lights filmed,end_to_end,hard,0.0,0.5,1.0,Pflugerville | Austin
+test2132,when did tim hortons open in the usa,end_to_end,hard,0.0,0.0,0.0,1981
+test228,how many games in a row have the uconn women's basketball team won,end_to_end,hard,0.0,0.0,0.6666666666666666,111 straight wins | 90 | 111
+test2328,what is the most famous building in rennes,end_to_end,hard,1.0,1.0,1.0,The Parlement de Bretagne | Parlement de Bretagne
+test2407,where did the rulers of the qing dynasty originate,end_to_end,hard,1.0,1.0,1.0,Manchuria
+test2419,when was the first nuclear power plant opened,end_to_end,hard,0.3333333333333333,0.6666666666666666,1.0,"On June 27 , 1954 | December 2 , 1942 | June 27 , 1954 | December 20 , 1951 | the USSR"
+test243,where did the titanic sink at what ocean,end_to_end,hard,1.0,1.0,1.0,North Atlantic Ocean
+test2441,what was the ancient chinese umbrella used for,end_to_end,hard,1.0,1.0,1.0,a defense against rain
+test246,where does the lincoln highway begin and end,end_to_end,hard,0.0,0.5882352941176471,1.0,Lincoln Park in San Francisco
+test2573,the most common form of megalithic architecture in europe is,end_to_end,hard,0.6666666666666666,0.6666666666666666,0.6666666666666666,the portal tomb | portal tomb
+test2649,why does cooling water run through the condenser,end_to_end,hard,0.0,0.0,1.0,condense the steam
+test2682,who has the most conference championships in college basketball,end_to_end,hard,0.0,0.6666666666666666,1.0,Kansas
+test2701,who was the first president of the constituent assembly,end_to_end,hard,0.0,0.3333333333333333,1.0,Dr. Rajendra Prasad
+test2703,when did first fast and furious come out,end_to_end,hard,1.0,1.0,1.0,2001
+test2713,what is australia's location in the world and region,end_to_end,hard,1.0,1.0,1.0,Oceania
+test276,under article 1 what is the minimum age required to serve in the house of representatives,end_to_end,hard,0.6666666666666666,0.6666666666666666,0.0,25 years old | 25
+test2861,what type of rock dominates the earth's surface,end_to_end,hard,1.0,1.0,1.0,sedimentary | Sedimentary | sedimentary rock
+test2886,who is the head of parliament in uk,end_to_end,hard,0.0,0.8000000000000002,1.0,Elizabeth II | John Bercow | The Lord Fowler
+test2958,branch of science that deals with the structure of human body parts,end_to_end,hard,1.0,1.0,0.0,Human anatomy | human anatomy | Anatomy
+test30,what is the meaning of the name comanche,end_to_end,hard,1.0,1.0,1.0,enemy
+test3016,when do dwight and angela start dating again,end_to_end,hard,0.6666666666666666,0.8888888888888888,1.0,Goodbye Toby | In `` A.A.R.M. '' | `` Goodbye Toby ''
+test3110,what is a coherent set of values and beliefs about public policy called,end_to_end,hard,0.0,0.0,0.0,a political ideology | political ideology | ideology
+test324,who won the battle of britain in ww2,end_to_end,hard,0.0,0.0,1.0,the United Kingdom | British | Britain
+test3253,what is the meaning of auv in cars,end_to_end,hard,0.0,0.0,0.0,action utility vehicles
+test3359,who used morse code in world war 2,end_to_end,hard,0.0,0.0,1.0,naval bases | warships
+test3410,where are the washington redskins based out of,end_to_end,hard,1.0,1.0,1.0,"the Washington metropolitan area | FedExField in Landover , Maryland"
+test3418,where does the highway of heroes start and end,end_to_end,hard,0.0,0.3636363636363636,1.0,Glen Miller Road in Trenton
+test3448,where does junior want to go to find hope,end_to_end,hard,0.0,0.0,1.0,off the rez
+test347,when did the us dollar leave the gold standard,end_to_end,hard,1.0,1.0,1.0,"October 1976 | August 15 , 1971 | 1934"
+test357,what episode of pll does jenna get her sight back,end_to_end,hard,0.0,0.0,1.0,Blood is the New Black | If These Dolls Could Talk
+test440,what is the system of government in japan,end_to_end,hard,1.0,1.0,1.0,constitutional monarchy
+test543,who was the german leader who signed the treaty of versailles,end_to_end,hard,1.0,1.0,1.0,President Friedrich Ebert | Gustav Bauer
+test56,when was the last time the military drafted,end_to_end,hard,0.0,0.0,0.0,December 1972 | 1972 | 1973
+test562,what is the most common cause of right ventricular heart failure,end_to_end,hard,0.0,0.5714285714285714,1.0,pulmonary heart disease | left - sided heart failure
+test580,when was the last time the jets won a playoff game,end_to_end,hard,0.3333333333333333,0.3333333333333333,1.0,2010
+test627,how many hoops are used in a game of croquet,end_to_end,hard,1.0,1.0,1.0,eight | six
+test719,what is the term of an official in the house of representatives,end_to_end,hard,0.0,0.0,1.0,Speaker of the House | Two years | two - year | Representatives
+test781,number of films in lord of the rings,end_to_end,hard,1.0,1.0,1.0,three
+test802,what is the white stork a symbol for in western culture,end_to_end,hard,0.0,0.0,1.0,bringing babies to new parents
+test831,when was the term prime minister first used,end_to_end,hard,1.0,1.0,1.0,1624 | 18th century
+test837,where was the summer olympics held in 2012,end_to_end,hard,1.0,1.0,1.0,"London | London , United Kingdom"
+test1023,what type of planet is neptune known as,gold_forced,ordinary,0.0,0.6666666666666666,1.0,giant | ice giants
+test1029,where did the name huey helicopter come from,gold_forced,ordinary,0.0,0.0,1.0,originally designated HU - 1
+test1065,what is the female lion called in lion king,gold_forced,ordinary,1.0,1.0,1.0,Nala
+test1101,where did the idea of a unicorn come from,gold_forced,ordinary,0.0,0.2222222222222222,1.0,Greek writers of natural history
+test1141,when was the last time ny rangers won stanley cup,gold_forced,ordinary,0.0,0.0,1.0,1993 -- 94
+test1170,when was the last time the ducks won the stanley cup,gold_forced,ordinary,0.0,0.0,1.0,( 2006 -- 07 ) | 2006 -- 07
+test1263,who was the aztec ruler when the spanish arrived,gold_forced,ordinary,0.0,0.6666666666666666,1.0,Moctezuma II | emperor Cuauhtemoc
+test1303,who discovered that plants were made of cells,gold_forced,ordinary,1.0,1.0,1.0,Parashara
+test1315,where does sound travel fastest solid liquid or gas,gold_forced,ordinary,0.0,0.0,1.0,solids
+test1376,who were the first kings to issue coins bearing their names,gold_forced,ordinary,0.0,0.0,1.0,the Indo - Greek kings
+test1388,what was the population of the roman empire at its height,gold_forced,ordinary,0.0,0.8888888888888888,1.0,70 million | an estimated 70 million people | 50 to 90 million inhabitants | 55 -- 60 million
+test144,who was the original host of what's my line,gold_forced,ordinary,1.0,1.0,1.0,John Daly
+test1452,when was the last time anyone was on the moon,gold_forced,ordinary,1.0,1.0,1.0,December 1972 | 14 December 1972 UTC
+test1489,when is the last time the philadelphia won the superbowl,gold_forced,ordinary,1.0,1.0,1.0,"Super Bowl LII , | 2017"
+test1515,in which sea pearl is found in india,gold_forced,ordinary,0.0,0.0,1.0,the Indian Ocean
+test1626,when was the minimum wage established in the united states,gold_forced,ordinary,1.0,1.0,1.0,1933 | 1912 | 1938
+test1662,when did the 5 day work week begin,gold_forced,ordinary,1.0,1.0,1.0,1908 | In 1908 | 1940
+test1686,who has hosted the most fifa world cups,gold_forced,ordinary,1.0,1.0,1.0,Mexico | France | Germany | Italy | Brazil
+test17,when did the us take over wake island,gold_forced,ordinary,0.0,0.5,1.0,"January 17 , 1899 | July 4 , 1898"
+test1701,who owns the dower house in the archers,gold_forced,ordinary,1.0,1.0,1.0,Caroline Sterling | Lilian Bellamy
+test179,where in the constitution is the executive branch referenced,gold_forced,ordinary,1.0,1.0,1.0,Article Two
+test1837,who is the current defence against the dark arts teacher,gold_forced,ordinary,0.0,0.0,1.0,Amycus Carrow
+test1898,what is the enrollment at university of miami,gold_forced,ordinary,1.0,1.0,1.0,"16,801 students | 16,801"
+test191,who proposed evolution in 1859 as the basis of biological development,gold_forced,ordinary,1.0,1.0,1.0,Charles Darwin | Alfred Russel Wallace
+test1911,who was the president of pakistan during 1971 war,gold_forced,ordinary,1.0,1.0,1.0,Yahya Khan | President Yahya Khan
+test1941,the chinese dragons are protectors of how many seas diggy,gold_forced,ordinary,1.0,1.0,1.0,Four Seas | Four
+test1946,who signed the largest on the declaration of independence,gold_forced,ordinary,1.0,1.0,1.0,John Hancock
+test2049,when did teenage mutant ninja turtles come out,gold_forced,ordinary,1.0,1.0,1.0,1984
+test2051,who lived in jamestown before the arrival of the english,gold_forced,ordinary,0.0,0.0,1.0,uninhabited
+test2072,where was the tv show friday night lights filmed,gold_forced,ordinary,0.0,0.5,1.0,Pflugerville | Austin
+test2132,when did tim hortons open in the usa,gold_forced,ordinary,1.0,1.0,1.0,1981
+test228,how many games in a row have the uconn women's basketball team won,gold_forced,ordinary,1.0,1.0,1.0,111 straight wins | 90 | 111
+test2328,what is the most famous building in rennes,gold_forced,ordinary,1.0,1.0,1.0,The Parlement de Bretagne | Parlement de Bretagne
+test2407,where did the rulers of the qing dynasty originate,gold_forced,ordinary,1.0,1.0,1.0,Manchuria
+test2419,when was the first nuclear power plant opened,gold_forced,ordinary,0.6666666666666666,0.8333333333333334,1.0,"On June 27 , 1954 | December 2 , 1942 | June 27 , 1954 | December 20 , 1951 | the USSR"
+test243,where did the titanic sink at what ocean,gold_forced,ordinary,1.0,1.0,1.0,North Atlantic Ocean
+test2441,what was the ancient chinese umbrella used for,gold_forced,ordinary,1.0,1.0,1.0,a defense against rain
+test246,where does the lincoln highway begin and end,gold_forced,ordinary,0.0,0.5882352941176471,1.0,Lincoln Park in San Francisco
+test2573,the most common form of megalithic architecture in europe is,gold_forced,ordinary,1.0,1.0,1.0,the portal tomb | portal tomb
+test2649,why does cooling water run through the condenser,gold_forced,ordinary,0.0,0.8000000000000002,1.0,condense the steam
+test2682,who has the most conference championships in college basketball,gold_forced,ordinary,0.0,0.6666666666666666,1.0,Kansas
+test2701,who was the first president of the constituent assembly,gold_forced,ordinary,0.0,0.3333333333333333,1.0,Dr. Rajendra Prasad
+test2703,when did first fast and furious come out,gold_forced,ordinary,1.0,1.0,1.0,2001
+test2713,what is australia's location in the world and region,gold_forced,ordinary,1.0,1.0,1.0,Oceania
+test276,under article 1 what is the minimum age required to serve in the house of representatives,gold_forced,ordinary,1.0,1.0,1.0,25 years old | 25
+test2861,what type of rock dominates the earth's surface,gold_forced,ordinary,1.0,1.0,1.0,sedimentary | Sedimentary | sedimentary rock
+test2886,who is the head of parliament in uk,gold_forced,ordinary,0.0,0.8000000000000002,1.0,Elizabeth II | John Bercow | The Lord Fowler
+test2958,branch of science that deals with the structure of human body parts,gold_forced,ordinary,1.0,1.0,1.0,Human anatomy | human anatomy | Anatomy
+test30,what is the meaning of the name comanche,gold_forced,ordinary,1.0,1.0,1.0,enemy
+test3016,when do dwight and angela start dating again,gold_forced,ordinary,1.0,1.0,1.0,Goodbye Toby | In `` A.A.R.M. '' | `` Goodbye Toby ''
+test3110,what is a coherent set of values and beliefs about public policy called,gold_forced,ordinary,1.0,1.0,1.0,a political ideology | political ideology | ideology
+test324,who won the battle of britain in ww2,gold_forced,ordinary,0.0,0.0,1.0,the United Kingdom | British | Britain
+test3253,what is the meaning of auv in cars,gold_forced,ordinary,1.0,1.0,1.0,action utility vehicles
+test3359,who used morse code in world war 2,gold_forced,ordinary,1.0,1.0,1.0,naval bases | warships
+test3410,where are the washington redskins based out of,gold_forced,ordinary,1.0,1.0,1.0,"the Washington metropolitan area | FedExField in Landover , Maryland"
+test3418,where does the highway of heroes start and end,gold_forced,ordinary,0.0,0.6262626262626262,1.0,Glen Miller Road in Trenton
+test3448,where does junior want to go to find hope,gold_forced,ordinary,0.0,0.0,1.0,off the rez
+test347,when did the us dollar leave the gold standard,gold_forced,ordinary,0.0,0.5,1.0,"October 1976 | August 15 , 1971 | 1934"
+test357,what episode of pll does jenna get her sight back,gold_forced,ordinary,1.0,1.0,1.0,Blood is the New Black | If These Dolls Could Talk
+test440,what is the system of government in japan,gold_forced,ordinary,1.0,1.0,1.0,constitutional monarchy
+test543,who was the german leader who signed the treaty of versailles,gold_forced,ordinary,1.0,1.0,1.0,President Friedrich Ebert | Gustav Bauer
+test56,when was the last time the military drafted,gold_forced,ordinary,1.0,1.0,1.0,December 1972 | 1972 | 1973
+test562,what is the most common cause of right ventricular heart failure,gold_forced,ordinary,0.0,0.5714285714285714,1.0,pulmonary heart disease | left - sided heart failure
+test580,when was the last time the jets won a playoff game,gold_forced,ordinary,1.0,1.0,1.0,2010
+test627,how many hoops are used in a game of croquet,gold_forced,ordinary,0.0,0.0,1.0,eight | six
+test719,what is the term of an official in the house of representatives,gold_forced,ordinary,0.0,0.5,1.0,Speaker of the House | Two years | two - year | Representatives
+test781,number of films in lord of the rings,gold_forced,ordinary,0.6666666666666666,0.6666666666666666,1.0,three
+test802,what is the white stork a symbol for in western culture,gold_forced,ordinary,0.0,0.0,1.0,bringing babies to new parents
+test831,when was the term prime minister first used,gold_forced,ordinary,1.0,1.0,1.0,1624 | 18th century
+test837,where was the summer olympics held in 2012,gold_forced,ordinary,1.0,1.0,1.0,"London | London , United Kingdom"
+test1023,what type of planet is neptune known as,gold_forced,hard,0.0,0.6666666666666666,1.0,giant | ice giants
+test1029,where did the name huey helicopter come from,gold_forced,hard,0.0,0.0,1.0,originally designated HU - 1
+test1065,what is the female lion called in lion king,gold_forced,hard,1.0,1.0,1.0,Nala
+test1101,where did the idea of a unicorn come from,gold_forced,hard,0.0,0.0,1.0,Greek writers of natural history
+test1141,when was the last time ny rangers won stanley cup,gold_forced,hard,0.0,0.0,1.0,1993 -- 94
+test1170,when was the last time the ducks won the stanley cup,gold_forced,hard,0.0,0.0,1.0,( 2006 -- 07 ) | 2006 -- 07
+test1263,who was the aztec ruler when the spanish arrived,gold_forced,hard,0.0,0.6666666666666666,1.0,Moctezuma II | emperor Cuauhtemoc
+test1303,who discovered that plants were made of cells,gold_forced,hard,1.0,1.0,1.0,Parashara
+test1315,where does sound travel fastest solid liquid or gas,gold_forced,hard,0.0,0.0,1.0,solids
+test1376,who were the first kings to issue coins bearing their names,gold_forced,hard,0.0,0.0,1.0,the Indo - Greek kings
+test1388,what was the population of the roman empire at its height,gold_forced,hard,0.0,0.8888888888888888,1.0,70 million | an estimated 70 million people | 50 to 90 million inhabitants | 55 -- 60 million
+test144,who was the original host of what's my line,gold_forced,hard,1.0,1.0,1.0,John Daly
+test1452,when was the last time anyone was on the moon,gold_forced,hard,1.0,1.0,1.0,December 1972 | 14 December 1972 UTC
+test1489,when is the last time the philadelphia won the superbowl,gold_forced,hard,1.0,1.0,1.0,"Super Bowl LII , | 2017"
+test1515,in which sea pearl is found in india,gold_forced,hard,0.0,0.0,1.0,the Indian Ocean
+test1626,when was the minimum wage established in the united states,gold_forced,hard,1.0,1.0,1.0,1933 | 1912 | 1938
+test1662,when did the 5 day work week begin,gold_forced,hard,1.0,1.0,1.0,1908 | In 1908 | 1940
+test1686,who has hosted the most fifa world cups,gold_forced,hard,0.6666666666666666,0.7777777777777777,1.0,Mexico | France | Germany | Italy | Brazil
+test17,when did the us take over wake island,gold_forced,hard,0.0,0.5,1.0,"January 17 , 1899 | July 4 , 1898"
+test1701,who owns the dower house in the archers,gold_forced,hard,1.0,1.0,1.0,Caroline Sterling | Lilian Bellamy
+test179,where in the constitution is the executive branch referenced,gold_forced,hard,1.0,1.0,1.0,Article Two
+test1837,who is the current defence against the dark arts teacher,gold_forced,hard,0.0,0.0,1.0,Amycus Carrow
+test1898,what is the enrollment at university of miami,gold_forced,hard,1.0,1.0,1.0,"16,801 students | 16,801"
+test191,who proposed evolution in 1859 as the basis of biological development,gold_forced,hard,1.0,1.0,1.0,Charles Darwin | Alfred Russel Wallace
+test1911,who was the president of pakistan during 1971 war,gold_forced,hard,1.0,1.0,1.0,Yahya Khan | President Yahya Khan
+test1941,the chinese dragons are protectors of how many seas diggy,gold_forced,hard,1.0,1.0,1.0,Four Seas | Four
+test1946,who signed the largest on the declaration of independence,gold_forced,hard,1.0,1.0,1.0,John Hancock
+test2049,when did teenage mutant ninja turtles come out,gold_forced,hard,1.0,1.0,1.0,1984
+test2051,who lived in jamestown before the arrival of the english,gold_forced,hard,0.0,0.0,1.0,uninhabited
+test2072,where was the tv show friday night lights filmed,gold_forced,hard,0.0,0.5,1.0,Pflugerville | Austin
+test2132,when did tim hortons open in the usa,gold_forced,hard,1.0,1.0,1.0,1981
+test228,how many games in a row have the uconn women's basketball team won,gold_forced,hard,1.0,1.0,1.0,111 straight wins | 90 | 111
+test2328,what is the most famous building in rennes,gold_forced,hard,1.0,1.0,1.0,The Parlement de Bretagne | Parlement de Bretagne
+test2407,where did the rulers of the qing dynasty originate,gold_forced,hard,1.0,1.0,1.0,Manchuria
+test2419,when was the first nuclear power plant opened,gold_forced,hard,0.3333333333333333,0.6666666666666666,1.0,"On June 27 , 1954 | December 2 , 1942 | June 27 , 1954 | December 20 , 1951 | the USSR"
+test243,where did the titanic sink at what ocean,gold_forced,hard,1.0,1.0,1.0,North Atlantic Ocean
+test2441,what was the ancient chinese umbrella used for,gold_forced,hard,1.0,1.0,1.0,a defense against rain
+test246,where does the lincoln highway begin and end,gold_forced,hard,0.0,0.5882352941176471,1.0,Lincoln Park in San Francisco
+test2573,the most common form of megalithic architecture in europe is,gold_forced,hard,1.0,1.0,1.0,the portal tomb | portal tomb
+test2649,why does cooling water run through the condenser,gold_forced,hard,0.0,0.8000000000000002,1.0,condense the steam
+test2682,who has the most conference championships in college basketball,gold_forced,hard,0.0,0.6666666666666666,1.0,Kansas
+test2701,who was the first president of the constituent assembly,gold_forced,hard,0.0,0.3333333333333333,1.0,Dr. Rajendra Prasad
+test2703,when did first fast and furious come out,gold_forced,hard,1.0,1.0,1.0,2001
+test2713,what is australia's location in the world and region,gold_forced,hard,1.0,1.0,1.0,Oceania
+test276,under article 1 what is the minimum age required to serve in the house of representatives,gold_forced,hard,1.0,1.0,1.0,25 years old | 25
+test2861,what type of rock dominates the earth's surface,gold_forced,hard,1.0,1.0,1.0,sedimentary | Sedimentary | sedimentary rock
+test2886,who is the head of parliament in uk,gold_forced,hard,0.0,0.8000000000000002,1.0,Elizabeth II | John Bercow | The Lord Fowler
+test2958,branch of science that deals with the structure of human body parts,gold_forced,hard,1.0,1.0,1.0,Human anatomy | human anatomy | Anatomy
+test30,what is the meaning of the name comanche,gold_forced,hard,1.0,1.0,1.0,enemy
+test3016,when do dwight and angela start dating again,gold_forced,hard,0.6666666666666666,0.8888888888888888,1.0,Goodbye Toby | In `` A.A.R.M. '' | `` Goodbye Toby ''
+test3110,what is a coherent set of values and beliefs about public policy called,gold_forced,hard,1.0,1.0,1.0,a political ideology | political ideology | ideology
+test324,who won the battle of britain in ww2,gold_forced,hard,0.0,0.0,1.0,the United Kingdom | British | Britain
+test3253,what is the meaning of auv in cars,gold_forced,hard,1.0,1.0,1.0,action utility vehicles
+test3359,who used morse code in world war 2,gold_forced,hard,0.3333333333333333,0.7777777777777777,1.0,naval bases | warships
+test3410,where are the washington redskins based out of,gold_forced,hard,1.0,1.0,1.0,"the Washington metropolitan area | FedExField in Landover , Maryland"
+test3418,where does the highway of heroes start and end,gold_forced,hard,0.0,0.3636363636363636,1.0,Glen Miller Road in Trenton
+test3448,where does junior want to go to find hope,gold_forced,hard,0.0,0.0,1.0,off the rez
+test347,when did the us dollar leave the gold standard,gold_forced,hard,0.0,0.5,1.0,"October 1976 | August 15 , 1971 | 1934"
+test357,what episode of pll does jenna get her sight back,gold_forced,hard,1.0,1.0,1.0,Blood is the New Black | If These Dolls Could Talk
+test440,what is the system of government in japan,gold_forced,hard,1.0,1.0,1.0,constitutional monarchy
+test543,who was the german leader who signed the treaty of versailles,gold_forced,hard,1.0,1.0,1.0,President Friedrich Ebert | Gustav Bauer
+test56,when was the last time the military drafted,gold_forced,hard,1.0,1.0,1.0,December 1972 | 1972 | 1973
+test562,what is the most common cause of right ventricular heart failure,gold_forced,hard,0.0,0.5714285714285714,1.0,pulmonary heart disease | left - sided heart failure
+test580,when was the last time the jets won a playoff game,gold_forced,hard,1.0,1.0,1.0,2010
+test627,how many hoops are used in a game of croquet,gold_forced,hard,1.0,1.0,1.0,eight | six
+test719,what is the term of an official in the house of representatives,gold_forced,hard,0.0,0.5,1.0,Speaker of the House | Two years | two - year | Representatives
+test781,number of films in lord of the rings,gold_forced,hard,1.0,1.0,1.0,three
+test802,what is the white stork a symbol for in western culture,gold_forced,hard,0.0,0.0,1.0,bringing babies to new parents
+test831,when was the term prime minister first used,gold_forced,hard,1.0,1.0,1.0,1624 | 18th century
+test837,where was the summer olympics held in 2012,gold_forced,hard,1.0,1.0,1.0,"London | London , United Kingdom"

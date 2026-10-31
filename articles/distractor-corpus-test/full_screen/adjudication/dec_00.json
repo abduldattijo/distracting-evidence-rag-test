@@ -1,0 +1,16 @@
+{
+"q010": {"3": ["reword", "Make the representation formal, machine-readable and interoperable so studies can be compared and reproduced"], "why": "APIs are invented; abstract gives OWL ontology, axioms, linked ontologies"},
+"q011": {"3": ["drop", "repeats requirements 1 and 2; the paper itself is the answer"]},
+"q014": {"1": ["drop", "question asks which metric predicts flips, not for definitions"]},
+"q017": {"1": ["drop", "question does not ask for definitions of the arms"],
+         "2": ["reword", "Allocate the limited replays between human-only and agent-only baselines"],
+         "3": ["reword", "Choose the replays so the test of team versus both baselines stays valid"]},
+"q019": {"3": ["drop", "diagnostics not asked by the question"]},
+"q025": {"2": ["reword", "Give sparsely connected nodes fewer layers to avoid over-smoothing and well-connected hubs more layers"],
+         "3": ["drop", "implementation details (masking, gates) invented"]},
+"q027": {"1": ["drop", "question asks how they compare, not how each selects"],
+         "3": ["drop", "cost and validity trade-offs not asked"]},
+"q028": {"3": ["reword", "Cope with open-set conditions where unseen threats are unknown during training"]},
+"q030": {"3": ["drop", "evidence and limitations not asked"]},
+"q031": {"3": ["drop", "stall and safety monitoring not asked"]}
+}

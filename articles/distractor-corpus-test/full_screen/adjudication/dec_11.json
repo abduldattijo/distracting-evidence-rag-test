@@ -1,0 +1,17 @@
+{
+"q213": {"3": ["drop", "per label results not asked"]},
+"q214": {"1": ["reword", "Avoid the error from averaging the two adapter factor matrices separately"],
+         "2": ["reword", "Avoid the mismatch from re-initializing clients from newly reconstructed factors"],
+         "3": ["reword", "Support clients that use different adapter ranks"]},
+"q215": {"3": ["drop", "specifics and limitations are not a requirement"]},
+"q216": {"1": ["reword", "Represent each event with the physiological state before it, its context and intervention, and the trajectory after it"],
+         "2": ["reword", "Model how the whole person's physiological state changes after an event, from continuous wearable sensing"],
+         "3": ["drop", "causal validation invented"]},
+"q217": {"1": ["reword", "Explain why repeated summarization increases blocked actions, repeated exploration and instability across runs"]},
+"q218": {"1": ["reword", "Involve community members as participants in building the dataset, not only as sources of data"],
+         "3": ["drop", "ownership, compensation and withdrawal rights invented"]},
+"q223": {"3": ["drop", "evidence of shared training not asked"]},
+"q228": {"3": ["drop", "learning from corrections invented"]},
+"q229": {"2": ["drop", "repeats requirement 1"], "3": ["reword", "Preserve the range of acceptable moves without losing correctness"]},
+"q232": {"3": ["drop", "trade-offs invented"]}
+}

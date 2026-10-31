@@ -1,0 +1,12 @@
+{
+"q253": {"2": ["drop", "flaw taxonomy and human label validation invented"], "3": ["drop", "step chunking and reliability weighting invented"]},
+"q254": {"2": ["reword", "Get a faster and more sensible causal graph by using the known stage ordering"]},
+"q255": {"2": ["drop", "metrics and ground truth details invented; repeats requirement 1"]},
+"q256": {"1": ["drop", "selective labels are not what the question asks"], "3": ["drop", "audits and randomized data invented"]},
+"q261": {"3": ["drop", "which conditions favor which method not asked"]},
+"q265": {"3": ["drop", "hierarchy and synonyms invented"]},
+"q266": {"2": ["keep", ""]},
+"q272": {"3": ["drop", "publication gaps not asked"]},
+"q273": {"1": ["reword", "Test whether models tell apart paired near-identical obstetric and pediatric cases that need different treatments"]},
+"q276": {"3": ["drop", "repeats requirement 1"]}
+}

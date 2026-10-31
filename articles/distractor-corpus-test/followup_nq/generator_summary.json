@@ -1,0 +1,101 @@
+{
+  "study": "post-hoc generator add-on to BEIR NQ same-page distractor retrieval arm",
+  "model": "Qwen/Qwen3-4B",
+  "decoding": "greedy, do_sample=false",
+  "hardware": "Colab Pro T4 then A100 high-RAM; sequential then batch-8; same checkpoint, prompt, tokenizer, and generation settings",
+  "rows": 1200,
+  "unique_question_draw_condition_mode_keys": 1200,
+  "questions_total": 100,
+  "answer_key_questions": 70,
+  "answer_key_source": "DPR Natural Questions test references, exact question match after case, Unicode, punctuation, and whitespace normalization",
+  "draw_seeds": [
+    11,
+    23,
+    37
+  ],
+  "contexts": [
+    "end_to_end top 10 retrieved passages",
+    "gold_forced: one answer-bearing qrel passage placed first plus top 9 non-qrel retrieved passages"
+  ],
+  "answer_metric": "SQuAD-style exact match and token F1 against maximum over DPR answer aliases; average 3 draws per question; paired bootstrap resamples question IDs, 10,000 replicates, seed 20261029",
+  "parse_ok": 1200,
+  "parse_fallback": 37,
+  "ordinary_hard_retrieval_qrel_in_top10_all_100_questions": {
+    "ordinary": 0.9066666666666666,
+    "hard": 0.8233333333333334
+  },
+  "quote_exact_substring_support": {
+    "end_to_end_ordinary": {
+      "quotes": 288,
+      "supported": 253,
+      "fraction": 0.8784722222222222
+    },
+    "end_to_end_hard": {
+      "quotes": 286,
+      "supported": 248,
+      "fraction": 0.8671328671328671
+    },
+    "gold_forced_ordinary": {
+      "quotes": 296,
+      "supported": 262,
+      "fraction": 0.8851351351351351
+    },
+    "gold_forced_hard": {
+      "quotes": 295,
+      "supported": 255,
+      "fraction": 0.864406779661017
+    }
+  },
+  "scores": {
+    "end_to_end": {
+      "ordinary": {
+        "em": 0.5761904761904763,
+        "token_f1": 0.6737032995016187
+      },
+      "hard": {
+        "em": 0.45714285714285713,
+        "token_f1": 0.5513079171062365
+      }
+    },
+    "gold_forced": {
+      "ordinary": {
+        "em": 0.6047619047619048,
+        "token_f1": 0.7332910133750468
+      },
+      "hard": {
+        "em": 0.6,
+        "token_f1": 0.7350947651787988
+      }
+    }
+  },
+  "paired_effects": {
+    "end_to_end": {
+      "em": {
+        "hard_minus_ordinary": -0.11904761904761903,
+        "ci95_low": -0.2,
+        "ci95_high": -0.04285714285714286
+      },
+      "token_f1": {
+        "hard_minus_ordinary": -0.12239538239538236,
+        "ci95_low": -0.20372294372294375,
+        "ci95_high": -0.046753246753246755
+      }
+    },
+    "gold_forced": {
+      "em": {
+        "hard_minus_ordinary": -0.004761904761904762,
+        "ci95_low": -0.042857142857142864,
+        "ci95_high": 0.03333333333333333
+      },
+      "token_f1": {
+        "hard_minus_ordinary": 0.0018037518037517994,
+        "ci95_low": -0.025180375180375185,
+        "ci95_high": 0.03852813852813852
+      }
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261029
+  }
+}

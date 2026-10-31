@@ -1,0 +1,58 @@
+== selection by gold: 25032 rows, 298 questions
+
+-- look_alike
+bm25      flat   
+    N=100: recall 97.3 mrr 0.932 change +0.0 [+0.0,+0.0]
+    N=250: recall 96.6 mrr 0.922 change -0.7 [-2.0,+0.7]
+    N=500: recall 96.3 mrr 0.922 change -1.0 [-2.7,+0.7]
+    N=1000: recall 96.0 mrr 0.917 change -1.3 [-3.4,+0.3]
+    N=1801: recall 96.0 mrr 0.919 change -1.3 [-3.4,+0.3]
+    N=2000: recall 96.0 mrr 0.921 change -1.3 [-3.4,+0.3]
+bm25      parent 
+    N=100: recall 97.7 mrr 0.933 change +0.0 [+0.0,+0.0]
+    N=250: recall 97.3 mrr 0.925 change -0.3 [-1.7,+0.7]
+    N=500: recall 96.6 mrr 0.925 change -1.0 [-2.7,+0.3]
+    N=1000: recall 96.3 mrr 0.921 change -1.3 [-3.0,+0.0]
+    N=1801: recall 96.3 mrr 0.921 change -1.3 [-3.0,+0.0]
+    N=2000: recall 96.3 mrr 0.923 change -1.3 [-3.0,+0.0]
+embeddingsflat   
+    N=100: recall 95.6 mrr 0.888 change +0.0 [+0.0,+0.0]
+    N=250: recall 94.6 mrr 0.880 change -1.0 [-2.3,+0.0]
+    N=500: recall 94.0 mrr 0.879 change -1.7 [-3.4,-0.3]
+    N=1000: recall 94.0 mrr 0.877 change -1.7 [-3.4,-0.3]
+    N=1801: recall 94.0 mrr 0.877 change -1.7 [-3.4,-0.3]
+    N=2000: recall 94.0 mrr 0.877 change -1.7 [-3.4,-0.3]
+embeddingsparent 
+    N=100: recall 96.0 mrr 0.891 change +0.0 [+0.0,+0.0]
+    N=250: recall 94.6 mrr 0.883 change -1.3 [-2.7,-0.3]
+    N=500: recall 94.6 mrr 0.882 change -1.3 [-2.7,-0.3]
+    N=1000: recall 94.3 mrr 0.880 change -1.7 [-3.4,-0.3]
+    N=1801: recall 94.3 mrr 0.880 change -1.7 [-3.4,-0.3]
+    N=2000: recall 94.3 mrr 0.880 change -1.7 [-3.4,-0.3]
+
+-- ordinary
+bm25      flat   
+    N=100: recall 99.7 mrr 0.991 change +0.0 [+0.0,+0.0] draws 99.7/99.7/99.7
+    N=250: recall 99.4 mrr 0.983 change -0.2 [-0.7,+0.0] draws 99.7/99.3/99.3
+    N=500: recall 99.4 mrr 0.976 change -0.2 [-0.7,+0.0] draws 99.7/99.3/99.3
+    N=1000: recall 99.0 mrr 0.965 change -0.7 [-1.7,+0.0] draws 99.3/99.0/98.7
+    N=1801: recall 98.0 mrr 0.948 change -1.7 [-3.4,-0.3] draws 98.0/98.0/98.0
+bm25      parent 
+    N=100: recall 99.7 mrr 0.991 change +0.0 [+0.0,+0.0] draws 99.7/99.7/99.7
+    N=250: recall 99.6 mrr 0.984 change -0.1 [-0.3,+0.0] draws 99.7/99.3/99.7
+    N=500: recall 99.4 mrr 0.977 change -0.2 [-0.7,+0.0] draws 99.7/99.3/99.3
+    N=1000: recall 99.1 mrr 0.967 change -0.6 [-1.5,+0.0] draws 99.3/99.3/98.7
+    N=1801: recall 98.3 mrr 0.951 change -1.3 [-2.7,-0.3] draws 98.3/98.3/98.3
+embeddingsflat   
+    N=100: recall 99.7 mrr 0.987 change +0.0 [+0.0,+0.0] draws 99.7/99.7/99.7
+    N=250: recall 98.9 mrr 0.975 change -0.8 [-1.8,+0.0] draws 98.7/99.3/98.7
+    N=500: recall 98.5 mrr 0.965 change -1.1 [-2.5,-0.1] draws 98.3/98.7/98.7
+    N=1000: recall 97.7 mrr 0.959 change -2.0 [-3.7,-0.7] draws 97.0/98.0/98.0
+    N=1801: recall 96.3 mrr 0.950 change -3.4 [-5.4,-1.3] draws 96.3/96.3/96.3
+embeddingsparent 
+    N=100: recall 99.7 mrr 0.988 change +0.0 [+0.0,+0.0] draws 99.7/99.7/99.7
+    N=250: recall 98.9 mrr 0.975 change -0.8 [-1.8,+0.0] draws 98.7/99.3/98.7
+    N=500: recall 98.5 mrr 0.966 change -1.1 [-2.5,-0.1] draws 98.3/98.7/98.7
+    N=1000: recall 97.7 mrr 0.960 change -2.0 [-3.7,-0.7] draws 97.0/98.0/98.0
+    N=1801: recall 96.6 mrr 0.951 change -3.0 [-5.0,-1.3] draws 96.6/96.6/96.6
+
